@@ -13,6 +13,12 @@ import Button from "react-bootstrap/Button";
 import { FaInstagram, FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 import ReactGA from "react-ga";
+import MailchimpSubscribe from "react-mailchimp-subscribe";
+
+const url = "//xxxx.us13.list-manage.com/subscribe/post?u=zefzefzef&id=fnfgn";
+
+// simplest form (only email)
+const SimpleForm = () => <MailchimpSubscribe url={url} />;
 
 ReactGA.initialize("UA-104764221-10");
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -41,7 +47,7 @@ function App() {
           <Row>
             <Col md={10} xs={12}>
               <Form.Group controlId="formBasicEmail">
-                <Form.Control type="email" className="bg-light border-0" placeholder="> Enter email" />
+                <Form.Control type="email" className="bg-light" placeholder="> Enter email" />
               </Form.Group>
             </Col>
             <Col md={2} xs={12}>
