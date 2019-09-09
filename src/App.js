@@ -7,6 +7,10 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Badge from "react-bootstrap/Badge";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+
+import { FaInstagram, FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 import ReactGA from "react-ga";
 
@@ -27,9 +31,27 @@ function App() {
               We build the cutting edge
             </h1>
 
-            <h2 className="text-muted font-weight-bold">We are the Carnegie Mellon Business Technology Group</h2>
+            <h2 className="text-muted font-weight-bold">
+              We are the Carnegie Mellon Business Technology Group
+            </h2>
           </Col>
         </Row>
+
+        <Form className="py-5 my-5">
+          <Row>
+            <Col md={10} xs={12}>
+              <Form.Group controlId="formBasicEmail">
+                <Form.Control type="email" className="bg-light border-0" placeholder="> Enter email" />
+              </Form.Group>
+            </Col>
+            <Col md={2} xs={12}>
+              <Button variant="danger" type="Sign up" block>
+                Submit
+              </Button>
+            </Col>
+          </Row>
+        </Form>
+
         <Row className="mt-5">
           <Col md={3}>
             <p>
@@ -129,6 +151,41 @@ function App() {
               through the semester and showcase your work. Past experience in
               web development preferred but not necessary.
             </p>
+          </Col>
+        </Row>
+      </Container>
+
+      <Container className="py-5 mt-5">
+        <Row>
+          <Col className="text-center">
+            <Button
+              variant="secondary"
+              href="https://facebook.com/cmubtg"
+              className="mr-1"
+            >
+              <FaFacebookF />
+            </Button>
+            <Button
+              variant="secondary"
+              href="https://instagram.com/cmubtg"
+              className="mr-1"
+            >
+              <FaInstagram />
+            </Button>
+            <Button
+              variant="secondary"
+              href="https://github.com/cmubtg"
+              className="mr-1"
+            >
+              <FaGithub />
+            </Button>
+            <Button
+              variant="secondary"
+              href="https://linkedin.com/company/cmubtg"
+              className="mr-1"
+            >
+              <FaLinkedinIn />
+            </Button>
           </Col>
         </Row>
       </Container>

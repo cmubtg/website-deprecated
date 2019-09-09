@@ -57,6 +57,9 @@ html {
   .close {
     font-size: calc(1.275rem + 0.3vw);
   }
+  .font-weight-boldest {
+    letter-spacing: normal;
+  }
 }
 
 .container {
