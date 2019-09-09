@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
+
 import { Helmet } from "react-helmet";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Badge from "react-bootstrap/Badge";
+
 import ReactGA from "react-ga";
 
 ReactGA.initialize("UA-104764221-10");
@@ -13,16 +15,19 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
-    <div class="">
+    <div className="">
       <Helmet>
         <title>Home Page | CMU BTG</title>
       </Helmet>
-      <Container class="">
+
+      <Container className="">
         <Row className="pt-5 mt-5">
           <Col>
-            <h1 class="display-3 text-black font-weight-boldest">
+            <h1 className="display-3 text-black font-weight-boldest">
               We build the cutting edge
             </h1>
+
+            <h2 className="text-muted font-weight-bold">We are the Carnegie Mellon Business Technology Group</h2>
           </Col>
         </Row>
         <Row className="mt-5">
@@ -41,29 +46,29 @@ function App() {
             </p>
 
             <Row className="mt-5 py-3">
-              <Col>
-                <h3 class="font-weight-bold">
+              <Col xs={12} md={4}>
+                <h4 className="font-weight-bold">
                   <Badge variant="danger" className="align-bottom">
                     3
                   </Badge>{" "}
                   Divisions
-                </h3>
+                </h4>
               </Col>
-              <Col>
-                <h3 class="font-weight-bold">
+              <Col xs={12} md={4}>
+                <h4 className="font-weight-bold">
                   <Badge variant="success" className="align-bottom">
-                    12
+                    10
                   </Badge>{" "}
                   Lectures
-                </h3>
+                </h4>
               </Col>
-              <Col>
-                <h3 class="font-weight-bold">
+              <Col xs={12} md={4}>
+                <h4 className="font-weight-bold">
                   <Badge variant="primary" className="align-bottom">
-                    11
+                    37k
                   </Badge>{" "}
-                  Repos
-                </h3>
+                  Lines of code
+                </h4>
               </Col>
             </Row>
           </Col>
@@ -71,7 +76,7 @@ function App() {
 
         <Row className="mt-5">
           <Col md={3}>
-            <span class="font-weight-bold">
+            <span className="font-weight-bold">
               BTG Academy&nbsp;
               <Badge pill="true" variant="primary">
                 OPEN
@@ -90,7 +95,7 @@ function App() {
 
         <Row className="mt-5">
           <Col md={3}>
-            <span class="font-weight-bold">
+            <span className="font-weight-bold">
               BTG Analytics&nbsp;
               <Badge pill="true" variant="secondary">
                 RECRUITING
@@ -110,7 +115,7 @@ function App() {
 
         <Row className="mt-5">
           <Col md={3}>
-            <span class="font-weight-bold">
+            <span className="font-weight-bold">
               BTG Web&nbsp;
               <Badge pill="true" variant="secondary">
                 RECRUITING
