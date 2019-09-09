@@ -1,17 +1,25 @@
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
 @supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
+  html {
+    font-family: "Inter var", sans-serif;
+  }
 }
 
 * {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .font-weight-boldest {
-    font-weight: 900;
-    letter-spacing: -2px;
-    line-height: 1.2em;
+  font-weight: 900;
+  letter-spacing: -2px;
+  line-height: 1.2em;
+}
+
+.text-black {
+  color: #000;
 }
 
 @media (max-width: 1200px) {
@@ -49,4 +57,8 @@ html { font-family: 'Inter', sans-serif; }
   .close {
     font-size: calc(1.275rem + 0.3vw);
   }
+}
+
+.container {
+  max-width: 960px;
 }

@@ -31,8 +31,13 @@
       "last 1 safari version"
     ]
   },
-  "engines": {
-    "node": "= 6.9.1",
-    "npm": "> 3"
-  }
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://cmubtg-website.scm.azurewebsites.net:443/cmubtg-website.git"
+  },
+  "author": "Eric Cheng",
+  "license": "ISC"
 }
