@@ -6,6 +6,10 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Badge from "react-bootstrap/Badge";
+import ReactGA from "react-ga";
+
+ReactGA.initialize("UA-104764221-10");
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
