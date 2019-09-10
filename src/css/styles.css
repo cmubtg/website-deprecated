@@ -22,6 +22,16 @@ html {
   color: #000;
 }
 
+.shadow-custom {
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+}
+
+.shadow-custom-danger {
+  box-shadow: 0 5px 10px rgba(255, 0, 0, 0.05),
+    0 15px 40px rgba(255, 82, 82, 0.2);
+}
+
 @media (max-width: 1200px) {
   legend {
     font-size: calc(1.275rem + 0.3vw);
@@ -62,6 +72,31 @@ html {
   }
 }
 
+@media (max-width: 768px) {
+  .team-description {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    z-index: 3;
+  }
+
+  .team-description p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 769px) {
+  .team-description {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    z-index: 3;
+  }
+}
+
 .container {
   max-width: 960px;
 }
@@ -84,28 +119,20 @@ html {
   border-radius: 4px;
 }
 
-.team-description {
-  grid-column-start: 1;
-  grid-column-end: 6;
-  grid-row-start: 4;
-  grid-row-end: 6;
-  z-index: 3;
-}
-
 .team-gradient {
   grid-column-start: 1;
   grid-column-end: 6;
-  grid-row-start: 1;
+  grid-row-start: 3;
   grid-row-end: 6;
   background: -webkit-linear-gradient(
     180deg,
     #43434300,
-    #00000060
+    #00000050
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     180deg,
     #43434300,
-    #00000060
+    #00000050
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   z-index: 2;
 }
