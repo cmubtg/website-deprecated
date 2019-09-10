@@ -65,3 +65,47 @@ html {
 .container {
   max-width: 960px;
 }
+
+.team-photo-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.team-photo {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  z-index: 1;
+}
+
+.team-photo img {
+  border-radius: 4px;
+}
+
+.team-description {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  z-index: 3;
+}
+
+.team-gradient {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  background: -webkit-linear-gradient(
+    180deg,
+    #43434300,
+    #00000060
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    180deg,
+    #43434300,
+    #00000060
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  z-index: 2;
+}
