@@ -9,7 +9,12 @@ import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import ReactGA from "react-ga";
 import { Helmet } from "react-helmet";
-import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaGithub,
+  FaInstagram,
+  FaLinkedinIn
+} from "react-icons/fa";
 import "./App.css";
 import LogoGray from "./images/btg-logo-gray.svg";
 
@@ -47,7 +52,7 @@ function App() {
 
         <Form className="py-5 my-5">
           <Row>
-            <Col md={10} xs={12}>
+            <Col md={8} xs={12}>
               <Form.Group controlId="formBasicEmail">
                 <Form.Control
                   type="email"
@@ -56,9 +61,9 @@ function App() {
                 />
               </Form.Group>
             </Col>
-            <Col md={2} xs={12}>
+            <Col md={4} xs={12}>
               <Button variant="danger" type="Sign up" block>
-                Submit
+                Sign up
               </Button>
             </Col>
           </Row>
@@ -182,40 +187,129 @@ function App() {
             </Col>
           </Row>
 
-          <Row>
-            <Col>
-              <div>
-                <h5>Calvin Lui</h5>
-              </div>
-            </Col>
-            <Col>
-              <div>
-                <h5>Jenny Zhu</h5>
-              </div>
-            </Col>
-            <Col>
-              <div>
-                <h5>Eric Cheng</h5>
-              </div>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <div>
-                <h5>Calvin Lui</h5>
-              </div>
-            </Col>
-            <Col>
-              <div>
-                <h5>Calvin Lui</h5>
-              </div>
-            </Col>
-            <Col>
-              <div>
-                <h5>Calvin Lui</h5>
-              </div>
-            </Col>
-          </Row>
+          <CardDeck>
+            <Card border="0" className="bg-transparent">
+              <Card.Img
+                variant="top"
+                src="https://scontent.fphl2-4.fna.fbcdn.net/v/t1.0-9/64817755_10219950975144174_8409638470573621248_n.jpg?_nc_cat=108&_nc_oc=AQkgM5wsLobeyPvgy7GLuuiUq7c3frE9R7AArE622VQ2u2oLXAk6bzVMKA0WkRr-NVA&_nc_ht=scontent.fphl2-4.fna&oh=82e0974c32cb98ee38ae4ae45916f1ba&oe=5E13B3D0"
+              />
+              <Card.Body className="p-0 pt-4">
+                <Card.Title classname="pb-0 mb-0">
+                  <p className="font-weight-bold">Calvin Lui</p>
+                </Card.Title>
+                <Card.Text classname="pt-0 mt-0">
+                  <p>
+                    <small>President</small>
+                  </p>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card border="0" className="bg-transparent">
+              <Card.Img
+                variant="top"
+                src="https://media.licdn.com/dms/image/C4D03AQHpiBSWIdF3xw/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=jXOJvB3Zn8dxWb6RHrAdX5auhpxkba0jop7yHgbjbJI"
+              />
+              <Card.Body className="p-0 pt-4">
+                <Card.Title classname="pb-0 mb-0">
+                  <p className="font-weight-bold">Jenny Zhu</p>
+                </Card.Title>
+                <Card.Text>
+                  <p>
+                    <small>Head of Strategy</small>
+                  </p>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card border="0" className="bg-transparent">
+              <Card.Img
+                variant="top"
+                src="https://scontent.fphl2-3.fna.fbcdn.net/v/t1.0-9/67881568_874773979570522_7004249365149646848_n.jpg?_nc_cat=104&_nc_oc=AQmc74TtkZBU1JTSS_IjV0_bImkRZqvrS4uRTFbVa_se5SC8PfIjChV83fIbLbYQX5Y&_nc_ht=scontent.fphl2-3.fna&oh=660c6ed89d89e51ab4fc4ba66aa31680&oe=5DF78DDE"
+              />
+              <Card.Body className="p-0 pt-4">
+                <Card.Title classname="pb-0 mb-0">
+                  <p className="font-weight-bold">Eric Cheng</p>
+                </Card.Title>
+                <Card.Text>
+                  <p>
+                    <small>Head of Product</small>
+                  </p>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card border="0" className="bg-transparent">
+              <Card.Img
+                variant="top"
+                src="https://scontent.fphl2-4.fna.fbcdn.net/v/t1.0-9/37290259_272554483506268_6348707729372086272_n.jpg?_nc_cat=111&_nc_oc=AQnmp5lIzlq_EiLZR3ZYzKNupIGskkZ3SVel_avZLtSEwjsCwwjLIsR_4Kdu6dWqlic&_nc_ht=scontent.fphl2-4.fna&oh=0c71310eadce266e1a41d43f31bc2bd0&oe=5DF2BF91"
+              />
+              <Card.Body className="p-0 pt-4">
+                <Card.Title classname="pb-0 mb-0">
+                  <p className="font-weight-bold">Will Zeng</p>
+                </Card.Title>
+                <Card.Text>
+                  <p>
+                    <small>Head of Curriculum</small>
+                  </p>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </CardDeck>
+
+          <CardDeck className="pt-5 ">
+            <Card border="0" className="bg-transparent">
+              <Card.Img
+                variant="top"
+                src="https://scontent.fagc3-2.fna.fbcdn.net/v/t1.0-1/70738858_2356018594667735_1973856107545755648_n.jpg?_nc_cat=105&_nc_oc=AQkrodaIwidrMu_PAp1HJ3Vo-vKc2OOVDUOp7MKm1YmxiMUrF-FlzJnyHd0vQp0YsGg&_nc_ht=scontent.fagc3-2.fna&oh=515128804a48b2d8f95cc27aab75bf2c&oe=5DF1A5E4"
+              />
+              <Card.Body className="p-0 pt-4">
+                <Card.Title classname="pb-0 mb-0">
+                  <p className="font-weight-bold">Yvonne Liang</p>
+                </Card.Title>
+                <Card.Text>
+                  <p>
+                    <small>Head of Finance</small>
+                  </p>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card border="0" className="bg-transparent">
+              <Card.Img
+                variant="top"
+                src="https://scontent.fagc3-2.fna.fbcdn.net/v/t1.0-9/54516161_2305266406420863_8869409634369142784_n.jpg?_nc_cat=101&_nc_oc=AQmlU1HGHN8KcH8_juvJj6WjtrzTLdh1fNcybc8MFgJ36qnsMjrCWi99qOpepzamv9A&_nc_ht=scontent.fagc3-2.fna&oh=7817adcb3ebd2378efdc362dc457bfcd&oe=5DC7CAD0"
+              />
+              <Card.Body className="p-0 pt-4">
+                <Card.Title classname="pb-0 mb-0">
+                  <p className="font-weight-bold">Matt Guo</p>
+                </Card.Title>
+                <Card.Text>
+                  <p>
+                    <small>Head of Design</small>
+                  </p>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card border="0" className="bg-transparent">
+              <Card.Img
+                variant="top"
+                src="https://media.licdn.com/dms/image/C5603AQF3AXlqvod16A/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=QS23gEsjP59XG9EVh7RWE3kYp_rRPjeigBmgA-icKfs"
+              />
+              <Card.Body className="p-0 pt-4">
+                <Card.Title classname="pb-0 mb-0">
+                  <p className="font-weight-bold">Navid Mamoon</p>
+                </Card.Title>
+                <Card.Text>
+                  <p>
+                    <small>Head of Outreach</small>
+                  </p>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card bg="danger" className="border-0">
+              <Card.Body>
+                <Card.Title className="text-white">Join us +</Card.Title>
+                <Card.Text></Card.Text>
+              </Card.Body>
+            </Card>
+          </CardDeck>
         </Container>
       </div>
 
@@ -260,7 +354,7 @@ function App() {
         </Row>
         <Row>
           <Col className="text-center">
-            <img src={LogoGray} alt="" width="50px" className="" />
+            <img src={LogoGray} alt="" width="60px" className="" />
           </Col>
         </Row>
       </Container>
