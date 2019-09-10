@@ -1,24 +1,26 @@
 import React from "react";
-import "./App.css";
-
-import { Helmet } from "react-helmet";
-
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Badge from "react-bootstrap/Badge";
-import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-
-import { FaInstagram, FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
-
+import Card from "react-bootstrap/Card";
+import CardDeck from "react-bootstrap/CardDeck";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import Form from "react-bootstrap/Form";
+import Row from "react-bootstrap/Row";
 import ReactGA from "react-ga";
-import MailchimpSubscribe from "react-mailchimp-subscribe";
+import { Helmet } from "react-helmet";
+import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import "./App.css";
+import LogoGray from "./images/btg-logo-gray.svg";
 
-const url = "//xxxx.us13.list-manage.com/subscribe/post?u=zefzefzef&id=fnfgn";
+// Mailchimp
+
+// import MailchimpSubscribe from "react-mailchimp-subscribe";
+
+// const url = "//xxxx.us13.list-manage.com/subscribe/post?u=zefzefzef&id=fnfgn";
 
 // simplest form (only email)
-const SimpleForm = () => <MailchimpSubscribe url={url} />;
+// const SimpleForm = () => <MailchimpSubscribe url={url} />;
 
 ReactGA.initialize("UA-104764221-10");
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -30,7 +32,7 @@ function App() {
         <title>Home Page | CMU BTG</title>
       </Helmet>
 
-      <Container className="">
+      <Container>
         <Row className="pt-5 mt-5">
           <Col>
             <h1 className="display-3 text-black font-weight-boldest">
@@ -47,7 +49,11 @@ function App() {
           <Row>
             <Col md={10} xs={12}>
               <Form.Group controlId="formBasicEmail">
-                <Form.Control type="email" className="bg-light" placeholder="> Enter email" />
+                <Form.Control
+                  type="email"
+                  className="bg-light"
+                  placeholder="> Enter email"
+                />
               </Form.Group>
             </Col>
             <Col md={2} xs={12}>
@@ -106,7 +112,7 @@ function App() {
           <Col md={3}>
             <span className="font-weight-bold">
               BTG Academy&nbsp;
-              <Badge pill="true" variant="primary">
+              <Badge pill="true" variant="danger">
                 OPEN
               </Badge>
             </span>
@@ -161,37 +167,100 @@ function App() {
         </Row>
       </Container>
 
+      <div className="bg-light">
+        <Container className="py-5 mt-5">
+          <Row>
+            <Col>
+              <h4 className="font-weight-bold">Meet the team</h4>
+
+              <p className="py-5">
+                CMU BTG team and alumni lead and deploy software, design, and
+                consulting projects around the world in fast-paced and
+                large-scale environments like Microsoft, Spotify, and Carnegie
+                Mellon University.
+              </p>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col>
+              <div>
+                <h5>Calvin Lui</h5>
+              </div>
+            </Col>
+            <Col>
+              <div>
+                <h5>Jenny Zhu</h5>
+              </div>
+            </Col>
+            <Col>
+              <div>
+                <h5>Eric Cheng</h5>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <div>
+                <h5>Calvin Lui</h5>
+              </div>
+            </Col>
+            <Col>
+              <div>
+                <h5>Calvin Lui</h5>
+              </div>
+            </Col>
+            <Col>
+              <div>
+                <h5>Calvin Lui</h5>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+
       <Container className="py-5 mt-5">
         <Row>
-          <Col className="text-center">
+          <Col>
             <Button
-              variant="secondary"
+              variant="light"
               href="https://facebook.com/cmubtg"
-              className="mr-1"
+              className="mr-1 border"
             >
               <FaFacebookF />
             </Button>
             <Button
-              variant="secondary"
+              variant="light"
               href="https://instagram.com/cmubtg"
-              className="mr-1"
+              className="mr-1 border"
             >
               <FaInstagram />
             </Button>
             <Button
-              variant="secondary"
+              variant="light"
               href="https://github.com/cmubtg"
-              className="mr-1"
+              className="mr-1 border"
             >
               <FaGithub />
             </Button>
             <Button
-              variant="secondary"
+              variant="light"
               href="https://linkedin.com/company/cmubtg"
-              className="mr-1"
+              className="mr-1 border"
             >
               <FaLinkedinIn />
             </Button>
+            <p className="text-muted py-5">
+              <small>
+                Want to reach out? Send us a line at{" "}
+                <a href="mailto:info@cmubtg.com">info@cmubtg.com</a>
+              </small>
+            </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="text-center">
+            <img src={LogoGray} alt="" width="50px" className="" />
           </Col>
         </Row>
       </Container>
