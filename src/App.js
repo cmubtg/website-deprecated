@@ -13,7 +13,6 @@ import {
   FaInstagram,
   FaLinkedinIn
 } from "react-icons/fa";
-import "./App.css";
 import LogoGray from "./images/btg-logo-gray.svg";
 
 import Microsoft from "./images/microsoft.svg";

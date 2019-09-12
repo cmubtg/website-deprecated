@@ -136,3 +136,29 @@ html {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   z-index: 2;
 }
+
+::-moz-selection {
+  background: #FF2F44;
+  color: white;
+}
+::selection {
+  background: #FF2F44;
+  color: white;
+}
+
+.text-danger {
+  color: #FF2F44;
+}
+
+.bg-danger {
+  background-color: #FF2F44;
+}
+
+.btn-danger {
+  background-color: #FF2F44;
+  border-color: #FF2F44;
+}
+
+.badge-danger {
+  background-color: #FF2F44;
+}
