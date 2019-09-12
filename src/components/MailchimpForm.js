@@ -6,6 +6,9 @@ import Row from "react-bootstrap/Row";
 import useForm from "./useForm";
 import axios from "axios";
 
+// https://upmostly.com/tutorials/using-custom-react-hooks-simplify-forms
+// https://github.com/axios/axios
+
 const MailchimpForm = () => {
   const { values, handleChange, handleSubmit } = useForm(login);
 
