@@ -16,6 +16,15 @@ import {
 import "./App.css";
 import LogoGray from "./images/btg-logo-gray.svg";
 
+import Microsoft from "./images/microsoft.png";
+import Spotify from "./images/spotify.png";
+import YC from "./images/yc.png";
+import Mastercard from "./images/mastercard.svg";
+import Deutsche from "./images/deutsche.png";
+import CapitalOne from "./images/Capital_One_logo.svg";
+import Boeing from "./images/boeing.png";
+import Bofa from "./images/bofa.png";
+
 // Mailchimp
 
 // import MailchimpSubscribe from "react-mailchimp-subscribe";
@@ -60,7 +69,12 @@ function App() {
               </Form.Group>
             </Col>
             <Col md={3} xs={12}>
-              <Button variant="danger" type="Sign up" className="shadow-custom-danger" block>
+              <Button
+                variant="danger"
+                type="Sign up"
+                className="shadow-custom-danger"
+                block
+              >
                 Sign up
               </Button>
             </Col>
@@ -170,6 +184,66 @@ function App() {
         </Row>
       </Container>
 
+      <Container className="py-5 mt-5">
+        <Row>
+          <Col>
+            <h4 className="font-weight-bold">Historical achievement</h4>
+
+            <p className="py-5">
+              You’re in good company. Whatever your goals may be, CMUBTG can
+              support and guide you towards your highest potential. CMUBTG
+              members and alumni lead, deploy, and design exciting projects
+              across the industry.
+            </p>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col xs={6} md={3}>
+            <div className="company-photo pt-4">
+              <img src={Microsoft} alt="microsoft" className="img-fluid" />
+            </div>
+          </Col>
+          <Col xs={6} md={3}>
+            <div className="company-photo pt-4">
+              <img src={Spotify} alt="spotify" className="img-fluid" />
+            </div>
+          </Col>
+          <Col xs={6} md={3}>
+            <div className="company-photo pt-4">
+              <img src={YC} alt="ycombinator" className="img-fluid" />
+            </div>
+          </Col>
+          <Col xs={6} md={3}>
+            <div className="company-photo pt-4">
+              <img src={Mastercard} alt="mastercard" className="img-fluid" />
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={6} md={3}>
+            <div className="company-photo pt-4">
+              <img src={Boeing} alt="boeing" className="img-fluid" />
+            </div>
+          </Col>
+          <Col xs={6} md={3}>
+            <div className="company-photo pt-4">
+              <img src={Deutsche} alt="deutsche" className="img-fluid" />
+            </div>
+          </Col>
+          <Col xs={6} md={3}>
+            <div className="company-photo pt-4">
+              <img src={Bofa} alt="bofa" className="img-fluid" />
+            </div>
+          </Col>
+          <Col xs={6} md={3}>
+            <div className="company-photo pt-4">
+              <img src={CapitalOne} alt="capitalone" className="img-fluid" />
+            </div>
+          </Col>
+        </Row>
+      </Container>
+
       <div className="bg-light">
         <Container className="py-5 mt-5">
           <Row>
@@ -177,9 +251,10 @@ function App() {
               <h4 className="font-weight-bold">Meet the team</h4>
 
               <p className="py-5">
-                Beyond what we do on-campus, CMU BTG alumni have historically
-                gone on to lead in fast-paced and large-scale technical
-                environments like Microsoft, Spotify, and Y Combinator.
+                The Carnegie Mellon Business Technology Group combines hands-on
+                technical training and holistic engagement with the technology
+                indstury. Our strong community can be found around campus and
+                reinforces our dedicated yet fun culture.
               </p>
             </Col>
           </Row>
@@ -320,9 +395,7 @@ function App() {
               </div>
             </Col>
 
-            <Col md={3} sm={6} className="pt-4">
-
-            </Col>
+            <Col md={3} sm={6} className="pt-4"></Col>
           </Row>
         </Container>
       </div>
