@@ -16,14 +16,14 @@ import {
 import "./App.css";
 import LogoGray from "./images/btg-logo-gray.svg";
 
-import Microsoft from "./images/microsoft.png";
-import Spotify from "./images/spotify.png";
-import YC from "./images/yc.png";
+import Microsoft from "./images/microsoft.svg";
+import Spotify from "./images/spotify.svg";
+import YC from "./images/yc.svg";
 import Mastercard from "./images/mastercard.svg";
-import Deutsche from "./images/deutsche.png";
-import CapitalOne from "./images/Capital_One_logo.svg";
-import Boeing from "./images/boeing.png";
-import Bofa from "./images/bofa.png";
+import Deutsche from "./images/deutsche.svg";
+import CapitalOne from "./images/capitalone.svg";
+import Boeing from "./images/boeing.svg";
+import Bofa from "./images/bofa.svg";
 
 // Mailchimp
 
@@ -201,44 +201,44 @@ function App() {
         <Row>
           <Col xs={6} md={3}>
             <div className="company-photo pt-4">
-              <img src={Microsoft} alt="microsoft" className="img-fluid" />
+              <img src={Microsoft} alt="microsoft" className="img-fluid company-svg" />
             </div>
           </Col>
           <Col xs={6} md={3}>
             <div className="company-photo pt-4">
-              <img src={Spotify} alt="spotify" className="img-fluid" />
+              <img src={Spotify} alt="spotify" className="img-fluid company-svg" />
             </div>
           </Col>
           <Col xs={6} md={3}>
             <div className="company-photo pt-4">
-              <img src={YC} alt="ycombinator" className="img-fluid" />
+              <img src={YC} alt="ycombinator" className="img-fluid company-svg" />
             </div>
           </Col>
           <Col xs={6} md={3}>
             <div className="company-photo pt-4">
-              <img src={Mastercard} alt="mastercard" className="img-fluid" />
+              <img src={Mastercard} alt="mastercard" className="img-fluid company-svg" />
             </div>
           </Col>
         </Row>
         <Row>
           <Col xs={6} md={3}>
             <div className="company-photo pt-4">
-              <img src={Boeing} alt="boeing" className="img-fluid" />
+              <img src={Boeing} alt="boeing" className="img-fluid company-svg" />
             </div>
           </Col>
           <Col xs={6} md={3}>
             <div className="company-photo pt-4">
-              <img src={Deutsche} alt="deutsche" className="img-fluid" />
+              <img src={Deutsche} alt="deutsche" className="img-fluid company-svg" />
             </div>
           </Col>
           <Col xs={6} md={3}>
             <div className="company-photo pt-4">
-              <img src={Bofa} alt="bofa" className="img-fluid" />
+              <img src={Bofa} alt="bofa" className="img-fluid company-svg" />
             </div>
           </Col>
           <Col xs={6} md={3}>
             <div className="company-photo pt-4">
-              <img src={CapitalOne} alt="capitalone" className="img-fluid" />
+              <img src={CapitalOne} alt="capitalone" className="img-fluid company-svg" />
             </div>
           </Col>
         </Row>
