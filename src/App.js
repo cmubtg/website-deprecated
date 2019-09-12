@@ -3,8 +3,8 @@ import Badge from "react-bootstrap/Badge";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
+import FadeIn from "react-fade-in";
 import ReactGA from "react-ga";
 import { Helmet } from "react-helmet";
 import {
@@ -13,26 +13,16 @@ import {
   FaInstagram,
   FaLinkedinIn
 } from "react-icons/fa";
+import MailchimpForm from "./components/MailchimpForm";
+import Boeing from "./images/boeing.svg";
+import Bofa from "./images/bofa.svg";
 import LogoGray from "./images/btg-logo-gray.svg";
-import FadeIn from "react-fade-in"; 
-
+import CapitalOne from "./images/capitalone.svg";
+import Deutsche from "./images/deutsche.svg";
+import Mastercard from "./images/mastercard.svg";
 import Microsoft from "./images/microsoft.svg";
 import Spotify from "./images/spotify.svg";
 import YC from "./images/yc.svg";
-import Mastercard from "./images/mastercard.svg";
-import Deutsche from "./images/deutsche.svg";
-import CapitalOne from "./images/capitalone.svg";
-import Boeing from "./images/boeing.svg";
-import Bofa from "./images/bofa.svg";
-
-// Mailchimp
-
-// import MailchimpSubscribe from "react-mailchimp-subscribe";
-
-// const url = "//xxxx.us13.list-manage.com/subscribe/post?u=zefzefzef&id=fnfgn";
-
-// simplest form (only email)
-// const SimpleForm = () => <MailchimpSubscribe url={url} />;
 
 ReactGA.initialize("UA-104764221-10");
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -59,29 +49,7 @@ function App() {
       </Container>
 
       <Container>
-        <Form className="py-5 my-5">
-          <Row>
-            <Col md={9} xs={12}>
-              <Form.Group controlId="formBasicEmail">
-                <Form.Control
-                  type="email"
-                  className="border-0 shadow-custom"
-                  placeholder="> Enter email"
-                />
-              </Form.Group>
-            </Col>
-            <Col md={3} xs={12}>
-              <Button
-                variant="danger"
-                type="Sign up"
-                className="shadow-custom-danger"
-                block
-              >
-                Sign up
-              </Button>
-            </Col>
-          </Row>
-        </Form>
+        <MailchimpForm />
       </Container>
 
       <Container>
@@ -205,44 +173,76 @@ function App() {
         <Row>
           <Col xs={6} md={3}>
             <div className="company-photo pt-4 text-center">
-              <img src={Microsoft} alt="microsoft" className="img-fluid company-svg microsoft-logo" />
+              <img
+                src={Microsoft}
+                alt="microsoft"
+                className="img-fluid company-svg microsoft-logo"
+              />
             </div>
           </Col>
           <Col xs={6} md={3}>
             <div className="company-photo pt-4 text-center">
-              <img src={Spotify} alt="spotify" className="img-fluid company-svg spotify-logo" />
+              <img
+                src={Spotify}
+                alt="spotify"
+                className="img-fluid company-svg spotify-logo"
+              />
             </div>
           </Col>
           <Col xs={6} md={3}>
             <div className="company-photo pt-4 text-center">
-              <img src={YC} alt="ycombinator" className="img-fluid company-svg ycombinator-logo" />
+              <img
+                src={YC}
+                alt="ycombinator"
+                className="img-fluid company-svg ycombinator-logo"
+              />
             </div>
           </Col>
           <Col xs={6} md={3}>
             <div className="company-photo pt-4 text-center">
-              <img src={Mastercard} alt="mastercard" className="img-fluid company-svg mastercard-logo" />
+              <img
+                src={Mastercard}
+                alt="mastercard"
+                className="img-fluid company-svg mastercard-logo"
+              />
             </div>
           </Col>
         </Row>
         <Row>
           <Col xs={6} md={3}>
             <div className="company-photo pt-4 text-center">
-              <img src={Boeing} alt="boeing" className="img-fluid company-svg boeing-logo" />
+              <img
+                src={Boeing}
+                alt="boeing"
+                className="img-fluid company-svg boeing-logo"
+              />
             </div>
           </Col>
           <Col xs={6} md={3}>
             <div className="company-photo pt-4 text-center">
-              <img src={Deutsche} alt="deutsche" className="img-fluid company-svg deutsche-logo" />
+              <img
+                src={Deutsche}
+                alt="deutsche"
+                className="img-fluid company-svg deutsche-logo"
+              />
             </div>
           </Col>
           <Col xs={6} md={3}>
             <div className="company-photo pt-4 text-center">
-              <img src={Bofa} alt="bofa" className="img-fluid company-svg bofa-logo" />
+              <img
+                src={Bofa}
+                alt="bofa"
+                className="img-fluid company-svg bofa-logo"
+              />
             </div>
           </Col>
           <Col xs={6} md={3}>
             <div className="company-photo pt-4 text-center">
-              <img src={CapitalOne} alt="capitalone" className="img-fluid company-svg capitalone-logo" />
+              <img
+                src={CapitalOne}
+                alt="capitalone"
+                className="img-fluid company-svg capitalone-logo"
+              />
             </div>
           </Col>
         </Row>
