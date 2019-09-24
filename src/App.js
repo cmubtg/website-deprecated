@@ -13,6 +13,7 @@ import {
   FaInstagram,
   FaLinkedinIn
 } from "react-icons/fa";
+import RecruitingAlert from "./components/RecruitingAlert"
 import MailchimpForm from "./components/MailchimpForm";
 import Boeing from "./images/boeing.svg";
 import Bofa from "./images/bofa.svg";
@@ -33,8 +34,11 @@ function App() {
       <Helmet>
         <title>Home Page | CMU BTG</title>
       </Helmet>
+        
+      <RecruitingAlert />
 
       <Container>
+
         <Row className="pt-5 mt-5">
           <Col>
             <h1 className="display-3 text-black font-weight-boldest">
