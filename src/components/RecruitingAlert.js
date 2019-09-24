@@ -19,11 +19,10 @@ function RecruitingAlert() {
           <Row>
             <Col>
               <p className="text-muted small">
-                Want to join a division? Apply to our{" "}
+                Want to join a division? Apply to {" "}
                 <Alert.Link className="text-danger" href="https://forms.gle/bgHkNvBDrrtarUBQ6">
                   BTG Web and BTG Analytics{" "}
-                </Alert.Link>
-                divisions by October 1<sup>st</sup>
+                </Alert.Link> by October 1<sup>st</sup>
               </p>
             </Col>
           </Row>
