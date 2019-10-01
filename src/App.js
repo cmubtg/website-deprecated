@@ -13,8 +13,10 @@ import {
   FaInstagram,
   FaLinkedinIn
 } from "react-icons/fa";
-import RecruitingAlert from "./components/RecruitingAlert"
+import RecruitingAlert from "./components/RecruitingAlert";
 import MailchimpForm from "./components/MailchimpForm";
+import Navigation from "./components/Navigation";
+import TeamPhoto from "./components/TeamPhoto";
 import Boeing from "./images/boeing.svg";
 import Bofa from "./images/bofa.svg";
 import LogoGray from "./images/btg-logo-gray.svg";
@@ -34,11 +36,14 @@ function App() {
       <Helmet>
         <title>Home Page | CMU BTG</title>
       </Helmet>
-        
+
       <RecruitingAlert />
 
       <Container>
+        <Navigation />
+      </Container>
 
+      <Container>
         <Row className="pt-5 mt-5">
           <Col>
             <h1 className="display-3 text-black font-weight-boldest">
@@ -267,148 +272,71 @@ function App() {
             </Col>
           </Row>
 
-          <Row>
-            <Col md={3} sm={6} className="pt-4">
-              <div className="team-photo-wrapper shadow-custom">
-                <div className="team-photo">
-                  <img
-                    src="https://scontent.fphl2-4.fna.fbcdn.net/v/t1.0-9/64817755_10219950975144174_8409638470573621248_n.jpg?_nc_cat=108&_nc_oc=AQkgM5wsLobeyPvgy7GLuuiUq7c3frE9R7AArE622VQ2u2oLXAk6bzVMKA0WkRr-NVA&_nc_ht=scontent.fphl2-4.fna&oh=82e0974c32cb98ee38ae4ae45916f1ba&oe=5E13B3D0"
-                    alt="calvin"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="team-description text-white px-3">
-                  <h4 className="font-weight-bold">Calvin Lui</h4>
-                  <p>
-                    <small>President</small>
-                  </p>
-                </div>
-                <div className="team-gradient"></div>
-              </div>
-            </Col>
+          <Row id="people">
+            <TeamPhoto
+              memberName={"Calvin Lui"}
+              role={"President"}
+              imageUrl={
+                "https://scontent.fphl2-4.fna.fbcdn.net/v/t1.0-9/64817755_10219950975144174_8409638470573621248_n.jpg?_nc_cat=108&_nc_oc=AQkgM5wsLobeyPvgy7GLuuiUq7c3frE9R7AArE622VQ2u2oLXAk6bzVMKA0WkRr-NVA&_nc_ht=scontent.fphl2-4.fna&oh=82e0974c32cb98ee38ae4ae45916f1ba&oe=5E13B3D0"
+              }
+            ></TeamPhoto>
 
-            <Col md={3} sm={6} className="pt-4">
-              <div className="team-photo-wrapper shadow-custom">
-                <div className="team-photo">
-                  <img
-                    src="https://media.licdn.com/dms/image/C4D03AQHpiBSWIdF3xw/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=jXOJvB3Zn8dxWb6RHrAdX5auhpxkba0jop7yHgbjbJI"
-                    alt="jenny"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="team-description text-white px-3">
-                  <h4 className="font-weight-bold">Jenny Zhu</h4>
-                  <p>
-                    <small>Head of Curation</small>
-                  </p>
-                </div>
-                <div className="team-gradient"></div>
-              </div>
-            </Col>
+            <TeamPhoto
+              memberName={"Jenny Zhu"}
+              role={"Head of Curation"}
+              imageUrl={
+                "https://media.licdn.com/dms/image/C4D03AQHpiBSWIdF3xw/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=jXOJvB3Zn8dxWb6RHrAdX5auhpxkba0jop7yHgbjbJI"
+              }
+            ></TeamPhoto>
 
-            <Col md={3} sm={6} className="pt-4">
-              <div className="team-photo-wrapper shadow-custom">
-                <div className="team-photo">
-                  <img
-                    src="https://scontent.fphl2-3.fna.fbcdn.net/v/t1.0-9/67881568_874773979570522_7004249365149646848_n.jpg?_nc_cat=104&_nc_oc=AQmc74TtkZBU1JTSS_IjV0_bImkRZqvrS4uRTFbVa_se5SC8PfIjChV83fIbLbYQX5Y&_nc_ht=scontent.fphl2-3.fna&oh=660c6ed89d89e51ab4fc4ba66aa31680&oe=5DF78DDE"
-                    alt="eric"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="team-description text-white px-3">
-                  <h4 className="font-weight-bold">Eric Cheng</h4>
-                  <p>
-                    <small>Head of Product</small>
-                  </p>
-                </div>
-                <div className="team-gradient"></div>
-              </div>
-            </Col>
+            <TeamPhoto
+              memberName={"Eric Cheng"}
+              role={"Head of Product"}
+              imageUrl={
+                "https://scontent.fphl2-3.fna.fbcdn.net/v/t1.0-9/67881568_874773979570522_7004249365149646848_n.jpg?_nc_cat=104&_nc_oc=AQmc74TtkZBU1JTSS_IjV0_bImkRZqvrS4uRTFbVa_se5SC8PfIjChV83fIbLbYQX5Y&_nc_ht=scontent.fphl2-3.fna&oh=660c6ed89d89e51ab4fc4ba66aa31680&oe=5DF78DDE"
+              }
+            ></TeamPhoto>
 
-            <Col md={3} sm={6} className="pt-4">
-              <div className="team-photo-wrapper shadow-custom">
-                <div className="team-photo">
-                  <img
-                    src="https://scontent.fphl2-4.fna.fbcdn.net/v/t1.0-9/37290259_272554483506268_6348707729372086272_n.jpg?_nc_cat=111&_nc_oc=AQnmp5lIzlq_EiLZR3ZYzKNupIGskkZ3SVel_avZLtSEwjsCwwjLIsR_4Kdu6dWqlic&_nc_ht=scontent.fphl2-4.fna&oh=0c71310eadce266e1a41d43f31bc2bd0&oe=5DF2BF91"
-                    alt="will"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="team-description text-white px-3">
-                  <h4 className="font-weight-bold">Will Zeng</h4>
-                  <p>
-                    <small>Head of Education</small>
-                  </p>
-                </div>
-                <div className="team-gradient"></div>
-              </div>
-            </Col>
+            <TeamPhoto
+              memberName={"Will Zeng"}
+              role={"Head of Education"}
+              imageUrl={
+                "https://scontent.fphl2-4.fna.fbcdn.net/v/t1.0-9/37290259_272554483506268_6348707729372086272_n.jpg?_nc_cat=111&_nc_oc=AQnmp5lIzlq_EiLZR3ZYzKNupIGskkZ3SVel_avZLtSEwjsCwwjLIsR_4Kdu6dWqlic&_nc_ht=scontent.fphl2-4.fna&oh=0c71310eadce266e1a41d43f31bc2bd0&oe=5DF2BF91"
+              }
+            ></TeamPhoto>
           </Row>
 
           <Row>
-            <Col md={3} sm={6} className="pt-4">
-              <div className="team-photo-wrapper shadow-custom">
-                <div className="team-photo">
-                  <img
-                    src="https://scontent.fagc3-2.fna.fbcdn.net/v/t1.0-1/70738858_2356018594667735_1973856107545755648_n.jpg?_nc_cat=105&_nc_oc=AQkrodaIwidrMu_PAp1HJ3Vo-vKc2OOVDUOp7MKm1YmxiMUrF-FlzJnyHd0vQp0YsGg&_nc_ht=scontent.fagc3-2.fna&oh=515128804a48b2d8f95cc27aab75bf2c&oe=5DF1A5E4"
-                    alt="yvonne"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="team-description text-white px-3">
-                  <h4 className="font-weight-bold">Yvonne Liang</h4>
-                  <p>
-                    <small>Head of Finance</small>
-                  </p>
-                </div>
-                <div className="team-gradient"></div>
-              </div>
-            </Col>
+            <TeamPhoto
+              memberName={"Yvonne Liang"}
+              role={"Head of Finance"}
+              imageUrl={
+                "https://scontent.fagc3-2.fna.fbcdn.net/v/t1.0-1/70738858_2356018594667735_1973856107545755648_n.jpg?_nc_cat=105&_nc_oc=AQkrodaIwidrMu_PAp1HJ3Vo-vKc2OOVDUOp7MKm1YmxiMUrF-FlzJnyHd0vQp0YsGg&_nc_ht=scontent.fagc3-2.fna&oh=515128804a48b2d8f95cc27aab75bf2c&oe=5DF1A5E4"
+              }
+            ></TeamPhoto>
 
-            <Col md={3} sm={6} className="pt-4">
-              <div className="team-photo-wrapper shadow-custom">
-                <div className="team-photo">
-                  <img
-                    src="https://scontent.fagc3-2.fna.fbcdn.net/v/t1.0-9/54516161_2305266406420863_8869409634369142784_n.jpg?_nc_cat=101&_nc_oc=AQmlU1HGHN8KcH8_juvJj6WjtrzTLdh1fNcybc8MFgJ36qnsMjrCWi99qOpepzamv9A&_nc_ht=scontent.fagc3-2.fna&oh=7817adcb3ebd2378efdc362dc457bfcd&oe=5DC7CAD0"
-                    alt="matt"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="team-description text-white px-3">
-                  <h4 className="font-weight-bold">Matt Guo</h4>
-                  <p>
-                    <small>Head of Design</small>
-                  </p>
-                </div>
-                <div className="team-gradient"></div>
-              </div>
-            </Col>
+            <TeamPhoto
+              memberName={"Matthew Guo"}
+              role={"Head of Design"}
+              imageUrl={
+                "https://scontent.fagc3-2.fna.fbcdn.net/v/t1.0-9/54516161_2305266406420863_8869409634369142784_n.jpg?_nc_cat=101&_nc_oc=AQmlU1HGHN8KcH8_juvJj6WjtrzTLdh1fNcybc8MFgJ36qnsMjrCWi99qOpepzamv9A&_nc_ht=scontent.fagc3-2.fna&oh=7817adcb3ebd2378efdc362dc457bfcd&oe=5DC7CAD0"
+              }
+            ></TeamPhoto>
 
-            <Col md={3} sm={6} className="pt-4">
-              <div className="team-photo-wrapper shadow-custom">
-                <div className="team-photo">
-                  <img
-                    src="https://media.licdn.com/dms/image/C5603AQF3AXlqvod16A/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=QS23gEsjP59XG9EVh7RWE3kYp_rRPjeigBmgA-icKfs"
-                    alt="navid"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="team-description text-white px-3">
-                  <h4 className="font-weight-bold">Navid Mamoon</h4>
-                  <p>
-                    <small>Head of Growth</small>
-                  </p>
-                </div>
-                <div className="team-gradient"></div>
-              </div>
-            </Col>
+            <TeamPhoto
+              memberName={"Navid Mamoon"}
+              role={"Head of Growth"}
+              imageUrl={
+                "https://media.licdn.com/dms/image/C5603AQF3AXlqvod16A/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=QS23gEsjP59XG9EVh7RWE3kYp_rRPjeigBmgA-icKfs"
+              }
+            ></TeamPhoto>
 
             <Col md={3} sm={6} className="pt-4"></Col>
           </Row>
         </Container>
       </div>
 
-      <Container className="py-5 mt-5">
+      <Container className="py-5 mt-5" id="contact">
         <Row>
           <Col>
             <Button
