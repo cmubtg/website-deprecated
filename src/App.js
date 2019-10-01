@@ -375,7 +375,7 @@ function App() {
         </Row>
         <Row>
           <Col className="text-center">
-            <img src={LogoGray} alt="" width="60px" className="" />
+            <img src={LogoGray} alt="" width="50" className="" />
           </Col>
         </Row>
       </Container>
