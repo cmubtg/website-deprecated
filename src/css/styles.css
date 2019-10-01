@@ -192,3 +192,25 @@ html {
 .capitalone-logo {
   height: 2rem;
 }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../images/toggler.svg");
+  border: none;
+  width: 1em;
+  height: 1em;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  border: none;
+  background-image: url("../images/toggler.svg");
+  width: 1em;
+  height: 1em;
+}
+
+.navbar-toggler {
+  border: none;
+  height: 1em;
+  width: 1em;
+  padding: 0;
+  margin: 0;
+}

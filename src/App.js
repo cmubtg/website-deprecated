@@ -39,9 +39,7 @@ function App() {
 
       <RecruitingAlert />
 
-      <Container>
-        <Navigation />
-      </Container>
+      <Navigation />
 
       <Container>
         <Row className="pt-5 mt-5">
