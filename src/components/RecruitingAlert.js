@@ -1,9 +1,9 @@
 import React from "react";
 import { useState } from "react";
-import Alert from "react-bootstrap/Alert";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Alert from "react-bootstrap/Alert";
 
 function RecruitingAlert() {
   const [show, setShow] = useState(true);
@@ -19,10 +19,7 @@ function RecruitingAlert() {
           <Row>
             <Col>
               <p className="text-muted small">
-                Want to join a division? Apply to {" "}
-                <Alert.Link className="text-danger" href="https://forms.gle/bgHkNvBDrrtarUBQ6">
-                  BTG Web and BTG Analytics{" "}
-                </Alert.Link> by October 1<sup>st</sup>
+                If you applied to a BTG division, please check your inbox later this week for further instruction.
               </p>
             </Col>
           </Row>

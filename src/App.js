@@ -1,25 +1,18 @@
 import React from "react";
 import Badge from "react-bootstrap/Badge";
-import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import FadeIn from "react-fade-in";
 import ReactGA from "react-ga";
 import { Helmet } from "react-helmet";
-import {
-  FaFacebookF,
-  FaGithub,
-  FaInstagram,
-  FaLinkedinIn
-} from "react-icons/fa";
-import RecruitingAlert from "./components/RecruitingAlert";
+import Footer from "./components/Footer";
 import MailchimpForm from "./components/MailchimpForm";
 import Navigation from "./components/Navigation";
+import RecruitingAlert from "./components/RecruitingAlert";
 import TeamPhoto from "./components/TeamPhoto";
 import Boeing from "./images/boeing.svg";
 import Bofa from "./images/bofa.svg";
-import LogoGray from "./images/btg-logo-gray.svg";
 import CapitalOne from "./images/capitalone.svg";
 import Deutsche from "./images/deutsche.svg";
 import Mastercard from "./images/mastercard.svg";
@@ -334,51 +327,7 @@ function App() {
         </Container>
       </div>
 
-      <Container className="py-5 mt-5" id="contact">
-        <Row>
-          <Col>
-            <Button
-              variant="light"
-              href="https://facebook.com/cmubtg"
-              className="mr-1"
-            >
-              <FaFacebookF />
-            </Button>
-            <Button
-              variant="light"
-              href="https://instagram.com/cmubtg"
-              className="mr-1"
-            >
-              <FaInstagram />
-            </Button>
-            <Button
-              variant="light"
-              href="https://github.com/cmubtg"
-              className="mr-1"
-            >
-              <FaGithub />
-            </Button>
-            <Button
-              variant="light"
-              href="https://linkedin.com/company/cmubtg"
-              className="mr-1"
-            >
-              <FaLinkedinIn />
-            </Button>
-            <p className="text-muted py-5">
-              <small>
-                Want to reach out? Send us a line at{" "}
-                <a href="mailto:info@cmubtg.com">info@cmubtg.com</a>
-              </small>
-            </p>
-          </Col>
-        </Row>
-        <Row>
-          <Col className="text-center">
-            <img src={LogoGray} alt="" width="50" className="" />
-          </Col>
-        </Row>
-      </Container>
+      <Footer />
     </FadeIn>
   );
 }

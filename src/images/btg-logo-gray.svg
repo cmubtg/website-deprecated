@@ -15,7 +15,10 @@
    version="1.1"
    id="svg5587"
    sodipodi:docname="btg-logo-gray.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:export-filename="G:\Shared drives\BTG E-Board\05 BTG Fall 2019\Marketing\Brand\btg-logo-gray.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs5581">
     <linearGradient
@@ -60,9 +63,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.175"
-     inkscape:cx="-839.95495"
-     inkscape:cy="763.08759"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="-230.41895"
+     inkscape:cy="1544.1151"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -84,7 +87,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -128,32 +131,20 @@
          id="path5725" />
     </g>
     <g
-       id="g5565"
-       transform="matrix(0.39848102,0,0,0.39848102,-1891.3133,-1198.7666)"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       id="g4592-7"
+       transform="matrix(0.39848102,0,0,0.39848102,-1894.5058,-175.36382)">
       <path
-         style="clip-rule:evenodd;fill:#ffffff;fill-rule:evenodd"
-         d="m 4855.3884,3532.784 c 1.1,-2.1 2.1,-4.3 3.1,-6.5 0.1,-0.3 0.3,-0.7 0.4,-1 h -4.5 c 0.5,2.5 0.7,5 1,7.5 z"
-         class="st1"
+         d="m 4980.2,274.5 c -9.6,0 -19.3,0.3 -29,0.9 -279.6,16.2 -510.3,258 -492.3,541.5 16.1,252.7 235.6,461.2 492.3,443.1 225.9,-16 412.1,-213.2 393.8,-443.1 h -192.4 c -0.1,0.3 -0.3,0.7 -0.4,1 -1,2.2 -2,4.3 -3.1,6.5 14.4,119.3 -81.7,223.8 -197.9,238.6 -149.3,19 -279.9,-100.7 -295.4,-246.1 -18.6,-176.1 123.2,-328.9 295.5,-344.5 203,-18.5 378,145.5 393.8,344.6 v 0 H 5542 C 5526.3,520.2 5277.9,273.4 4980.2,274.5 Z"
+         class="st7"
          inkscape:connector-curvature="0"
-         id="path4836-4-9" />
-      <g
-         transform="translate(-8.0116488,2568.2598)"
-         id="g4592-7">
-        <path
-           style="clip-rule:evenodd;fill:url(#linearGradient5420);fill-rule:evenodd"
-           id="path4787-7-9-3"
-           inkscape:connector-curvature="0"
-           class="st7"
-           d="m 4980.2,274.5 c -9.6,0 -19.3,0.3 -29,0.9 -279.6,16.2 -510.3,258 -492.3,541.5 16.1,252.7 235.6,461.2 492.3,443.1 225.9,-16 412.1,-213.2 393.8,-443.1 h -192.4 c -0.1,0.3 -0.3,0.7 -0.4,1 -1,2.2 -2,4.3 -3.1,6.5 14.4,119.3 -81.7,223.8 -197.9,238.6 -149.3,19 -279.9,-100.7 -295.4,-246.1 -18.6,-176.1 123.2,-328.9 295.5,-344.5 203,-18.5 378,145.5 393.8,344.6 v 0 H 5542 C 5526.3,520.2 5277.9,273.4 4980.2,274.5 Z" />
-        <path
-           style="clip-rule:evenodd;fill:#7a869a;fill-rule:evenodd"
-           id="path4787-8-8-4-5"
-           inkscape:connector-curvature="0"
-           class="st8"
-           d="m 4459.9,826.8 h 197.3 c -0.5,-3.3 -0.9,-6.5 -1.3,-9.8 -18.7,-176.2 123.1,-329 295.4,-344.6 203,-18.5 378,145.5 393.8,344.6 v 0 H 5542 c -15.7,-296.8 -264.1,-543.6 -561.8,-542.4 -9.6,0 -19.3,0.3 -29,0.9 -279.6,16.2 -510.3,258 -492.3,541.5 0.3,3.3 0.7,6.5 1,9.8 z" />
-      </g>
+         id="path4787-7-9-3"
+         style="clip-rule:evenodd;fill:url(#linearGradient5420);fill-rule:evenodd" />
+      <path
+         d="m 4459.9,826.8 h 197.3 c -0.5,-3.3 -0.9,-6.5 -1.3,-9.8 -18.7,-176.2 123.1,-329 295.4,-344.6 203,-18.5 378,145.5 393.8,344.6 v 0 H 5542 c -15.7,-296.8 -264.1,-543.6 -561.8,-542.4 -9.6,0 -19.3,0.3 -29,0.9 -279.6,16.2 -510.3,258 -492.3,541.5 0.3,3.3 0.7,6.5 1,9.8 z"
+         class="st8"
+         inkscape:connector-curvature="0"
+         id="path4787-8-8-4-5"
+         style="clip-rule:evenodd;fill:#7a869a;fill-rule:evenodd" />
     </g>
   </g>
 </svg>
