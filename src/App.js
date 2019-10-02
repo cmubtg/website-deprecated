@@ -9,16 +9,8 @@ import { Helmet } from "react-helmet";
 import Footer from "./components/Footer";
 import MailchimpForm from "./components/MailchimpForm";
 import Navigation from "./components/Navigation";
-import RecruitingAlert from "./components/RecruitingAlert";
 import TeamPhoto from "./components/TeamPhoto";
-import Boeing from "./images/boeing.svg";
-import Bofa from "./images/bofa.svg";
-import CapitalOne from "./images/capitalone.svg";
-import Deutsche from "./images/deutsche.svg";
-import Mastercard from "./images/mastercard.svg";
-import Microsoft from "./images/microsoft.svg";
-import Spotify from "./images/spotify.svg";
-import YC from "./images/yc.svg";
+import Companies from "./components/Companies";
 
 ReactGA.initialize("UA-104764221-10");
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -29,8 +21,6 @@ function App() {
       <Helmet>
         <title>Home Page | CMU BTG</title>
       </Helmet>
-
-      <RecruitingAlert />
 
       <Navigation />
 
@@ -170,82 +160,7 @@ function App() {
           </Col>
         </Row>
 
-        <Row>
-          <Col xs={6} md={3}>
-            <div className="company-photo pt-4 text-center">
-              <img
-                src={Microsoft}
-                alt="microsoft"
-                className="img-fluid company-svg microsoft-logo"
-              />
-            </div>
-          </Col>
-          <Col xs={6} md={3}>
-            <div className="company-photo pt-4 text-center">
-              <img
-                src={Spotify}
-                alt="spotify"
-                className="img-fluid company-svg spotify-logo"
-              />
-            </div>
-          </Col>
-          <Col xs={6} md={3}>
-            <div className="company-photo pt-4 text-center">
-              <img
-                src={YC}
-                alt="ycombinator"
-                className="img-fluid company-svg ycombinator-logo"
-              />
-            </div>
-          </Col>
-          <Col xs={6} md={3}>
-            <div className="company-photo pt-4 text-center">
-              <img
-                src={Mastercard}
-                alt="mastercard"
-                className="img-fluid company-svg mastercard-logo"
-              />
-            </div>
-          </Col>
-        </Row>
-        <Row>
-          <Col xs={6} md={3}>
-            <div className="company-photo pt-4 text-center">
-              <img
-                src={Boeing}
-                alt="boeing"
-                className="img-fluid company-svg boeing-logo"
-              />
-            </div>
-          </Col>
-          <Col xs={6} md={3}>
-            <div className="company-photo pt-4 text-center">
-              <img
-                src={Deutsche}
-                alt="deutsche"
-                className="img-fluid company-svg deutsche-logo"
-              />
-            </div>
-          </Col>
-          <Col xs={6} md={3}>
-            <div className="company-photo pt-4 text-center">
-              <img
-                src={Bofa}
-                alt="bofa"
-                className="img-fluid company-svg bofa-logo"
-              />
-            </div>
-          </Col>
-          <Col xs={6} md={3}>
-            <div className="company-photo pt-4 text-center">
-              <img
-                src={CapitalOne}
-                alt="capitalone"
-                className="img-fluid company-svg capitalone-logo"
-              />
-            </div>
-          </Col>
-        </Row>
+        <Companies />
       </Container>
 
       <div className="bg-light">
@@ -270,6 +185,9 @@ function App() {
               imageUrl={
                 "https://scontent.fphl2-4.fna.fbcdn.net/v/t1.0-9/64817755_10219950975144174_8409638470573621248_n.jpg?_nc_cat=108&_nc_oc=AQkgM5wsLobeyPvgy7GLuuiUq7c3frE9R7AArE622VQ2u2oLXAk6bzVMKA0WkRr-NVA&_nc_ht=scontent.fphl2-4.fna&oh=82e0974c32cb98ee38ae4ae45916f1ba&oe=5E13B3D0"
               }
+              description={
+                "Calvin is the President of CMUBTG. He is a senior studying Information Systems. Calvin has been 6’3” since high school, but only recently this summer, he was able to touch the rim of a basketball hoop. Sad reacts only."
+              }
             ></TeamPhoto>
 
             <TeamPhoto
@@ -277,6 +195,9 @@ function App() {
               role={"Head of Curation"}
               imageUrl={
                 "https://media.licdn.com/dms/image/C4D03AQHpiBSWIdF3xw/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=jXOJvB3Zn8dxWb6RHrAdX5auhpxkba0jop7yHgbjbJI"
+              }
+              description={
+                "Jenny serves as the Head of Curation at CMUBTG. She is a senior studying Information Systems and Statistics and Machine Learning. Recently, Jenny has been enjoying jazz, funk, and sadboi lofi hip hop."
               }
             ></TeamPhoto>
 
@@ -286,6 +207,9 @@ function App() {
               imageUrl={
                 "https://scontent.fphl2-3.fna.fbcdn.net/v/t1.0-9/67881568_874773979570522_7004249365149646848_n.jpg?_nc_cat=104&_nc_oc=AQmc74TtkZBU1JTSS_IjV0_bImkRZqvrS4uRTFbVa_se5SC8PfIjChV83fIbLbYQX5Y&_nc_ht=scontent.fphl2-3.fna&oh=660c6ed89d89e51ab4fc4ba66aa31680&oe=5DF78DDE"
               }
+              description={
+                "Eric serves as Head of Product at CMUBTG. He studies business at Carnegie Mellon. Fun fact: Eric is probably BTG’s best chef. He cooked this very website, too!"
+              }
             ></TeamPhoto>
 
             <TeamPhoto
@@ -293,6 +217,9 @@ function App() {
               role={"Head of Education"}
               imageUrl={
                 "https://scontent.fphl2-4.fna.fbcdn.net/v/t1.0-9/37290259_272554483506268_6348707729372086272_n.jpg?_nc_cat=111&_nc_oc=AQnmp5lIzlq_EiLZR3ZYzKNupIGskkZ3SVel_avZLtSEwjsCwwjLIsR_4Kdu6dWqlic&_nc_ht=scontent.fphl2-4.fna&oh=0c71310eadce266e1a41d43f31bc2bd0&oe=5DF2BF91"
+              }
+              description={
+                "William is the Head of Education at CMUBTG. He is a sophomore studying Statistics and Machine Learning. He enjoys game theory and games of chance."
               }
             ></TeamPhoto>
           </Row>
@@ -304,6 +231,9 @@ function App() {
               imageUrl={
                 "https://scontent.fagc3-2.fna.fbcdn.net/v/t1.0-1/70738858_2356018594667735_1973856107545755648_n.jpg?_nc_cat=105&_nc_oc=AQkrodaIwidrMu_PAp1HJ3Vo-vKc2OOVDUOp7MKm1YmxiMUrF-FlzJnyHd0vQp0YsGg&_nc_ht=scontent.fagc3-2.fna&oh=515128804a48b2d8f95cc27aab75bf2c&oe=5DF1A5E4"
               }
+              description={
+                "Yvonne is the Head of Finance at CMUBTG. She is a sophomore studying business. She enjoys hikes and lakes."
+              }
             ></TeamPhoto>
 
             <TeamPhoto
@@ -312,6 +242,9 @@ function App() {
               imageUrl={
                 "https://scontent.fagc3-2.fna.fbcdn.net/v/t1.0-9/54516161_2305266406420863_8869409634369142784_n.jpg?_nc_cat=101&_nc_oc=AQmlU1HGHN8KcH8_juvJj6WjtrzTLdh1fNcybc8MFgJ36qnsMjrCWi99qOpepzamv9A&_nc_ht=scontent.fagc3-2.fna&oh=7817adcb3ebd2378efdc362dc457bfcd&oe=5DC7CAD0"
               }
+              description={
+                "Matthew is Head of Design at CMUBTG and studies Information Systems + HCI. Having grown up in Sydney and Shanghai, he is always willing to explore more of Pittsburgh."
+              }
             ></TeamPhoto>
 
             <TeamPhoto
@@ -319,6 +252,9 @@ function App() {
               role={"Head of Growth"}
               imageUrl={
                 "https://media.licdn.com/dms/image/C5603AQF3AXlqvod16A/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=QS23gEsjP59XG9EVh7RWE3kYp_rRPjeigBmgA-icKfs"
+              }
+              description={
+                "Navid is Head of Growth at CMUBTG. He is a sophomore studying Business Administration. Navid’s in love with his guitar and has recently taken up rock climbing in lieu of his failed attempts at working out."
               }
             ></TeamPhoto>
 

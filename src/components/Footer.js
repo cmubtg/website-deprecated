@@ -3,7 +3,12 @@ import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaGithub,
+  FaInstagram,
+  FaLinkedinIn
+} from "react-icons/fa";
 import LogoGray from "../images/btg-logo-gray.svg";
 
 const Footer = () => {
@@ -49,11 +54,11 @@ const Footer = () => {
       </Row>
       <Row>
         <Col className="text-center">
-          <img src={LogoGray} alt="" width="50" className="" />
+          <img src={LogoGray} alt="" width="50" height="50" />
         </Col>
       </Row>
     </Container>
   );
-}
+};
 
 export default Footer;

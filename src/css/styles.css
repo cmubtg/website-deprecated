@@ -9,9 +9,8 @@ html {
 }
 
 * {
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
- Helvetica, Arial, sans-serif,
- "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .font-weight-boldest {
@@ -78,14 +77,19 @@ html {
   .team-description {
     grid-column-start: 1;
     grid-column-end: 6;
-    grid-row-start: 5;
+    grid-row-start: 6;
     grid-row-end: 6;
     z-index: 3;
+    padding: 15px 0 15px 0 !important;
   }
 
   .team-description p {
     padding-bottom: 0;
     margin-bottom: 0;
+  }
+
+  .team-gradient {
+    display: none;
   }
 }
 
@@ -96,6 +100,7 @@ html {
     grid-row-start: 4;
     grid-row-end: 6;
     z-index: 3;
+    color: white;
   }
 }
 
@@ -140,29 +145,29 @@ html {
 }
 
 ::-moz-selection {
-  background: #FF2F44;
+  background: #ff2f44;
   color: white;
 }
 ::selection {
-  background: #FF2F44;
+  background: #ff2f44;
   color: white;
 }
 
 .text-danger {
-  color: #FF2F44;
+  color: #ff2f44;
 }
 
 .bg-danger {
-  background-color: #FF2F44;
+  background-color: #ff2f44;
 }
 
 .btn-danger {
-  background-color: #FF2F44;
-  border-color: #FF2F44;
+  background-color: #ff2f44;
+  border-color: #ff2f44;
 }
 
 .badge-danger {
-  background-color: #FF2F44;
+  background-color: #ff2f44;
 }
 
 .microsoft-logo {
