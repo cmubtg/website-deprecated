@@ -18,8 +18,8 @@ function Navigation() {
           <Navbar.Brand href="/" className="py-0 my-0">
             <img
               src={LogoColor}
-              width="60"
-              height="60"
+              width="70"
+              height="70"
               className="d-inline-block align-top"
               alt="BTG Logo"
             />
