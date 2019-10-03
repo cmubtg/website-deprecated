@@ -16,7 +16,7 @@ html {
 .font-weight-boldest {
   font-weight: 900;
   letter-spacing: -2px;
-  line-height: 1.2em;
+  line-height: 1em;
 }
 
 .text-black {
@@ -60,7 +60,7 @@ html {
     font-size: calc(1.675rem + 5.1vw);
   }
   .display-3 {
-    font-size: calc(1.575rem + 3.9vw);
+    font-size: calc(1.775rem + 4.5vw);
   }
   .display-4 {
     font-size: calc(1.475rem + 2.7vw);
@@ -69,7 +69,7 @@ html {
     font-size: calc(1.275rem + 0.3vw);
   }
   .font-weight-boldest {
-    letter-spacing: normal;
+    letter-spacing: -1px;
   }
 }
 
