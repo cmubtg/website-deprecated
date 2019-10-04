@@ -6,11 +6,11 @@ import Row from "react-bootstrap/Row";
 import FadeIn from "react-fade-in";
 import ReactGA from "react-ga";
 import { Helmet } from "react-helmet";
+import Companies from "./components/Companies";
 import Footer from "./components/Footer";
 import MailchimpForm from "./components/MailchimpForm";
 import Navigation from "./components/Navigation";
 import TeamPhoto from "./components/TeamPhoto";
-import Companies from "./components/Companies";
 
 ReactGA.initialize("UA-104764221-10");
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -38,9 +38,7 @@ function App() {
         </Row>
       </Container>
 
-      <Container>
-        <MailchimpForm />
-      </Container>
+      <MailchimpForm />
 
       <Container>
         <Row className="mt-5">
