@@ -106,12 +106,7 @@ function App() {
 
         <Row className="mt-5">
           <Col md={3}>
-            <span className="font-weight-bold">
-              BTG Analytics&nbsp;
-              <Badge pill="true" variant="secondary">
-                RECRUITING
-              </Badge>
-            </span>
+            <span className="font-weight-bold">BTG Analytics&nbsp;</span>
           </Col>
           <Col md={9}>
             <p>
@@ -126,19 +121,14 @@ function App() {
 
         <Row className="mt-5">
           <Col md={3}>
-            <span className="font-weight-bold">
-              BTG Web&nbsp;
-              <Badge pill="true" variant="secondary">
-                RECRUITING
-              </Badge>
-            </span>
+            <span className="font-weight-bold">BTG Digital&nbsp;</span>
           </Col>
           <Col md={9}>
             <p>
               Full-stack web development using industry standard tools i.e.
-              React, Next.js, Redux, npm. Produce your own portfolio site
-              through the semester and showcase your work. Past experience in
-              web development preferred but not necessary.
+              React, GatsbyJS, Next.js, Redux, npm. Produce your own portfolio
+              site through the semester and showcase your work. Past experience
+              in web development preferred but not necessary.
             </p>
           </Col>
         </Row>
