@@ -80,7 +80,8 @@ html {
     grid-row-start: 6;
     grid-row-end: 6;
     z-index: 3;
-    padding: 15px 0 15px 0 !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   .team-description p {
@@ -120,10 +121,6 @@ html {
   grid-row-start: 1;
   grid-row-end: 6;
   z-index: 1;
-}
-
-.team-photo img {
-  border-radius: 4px;
 }
 
 .team-gradient {
