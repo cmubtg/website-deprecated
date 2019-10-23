@@ -160,7 +160,7 @@ function App() {
               <p className="py-5">
                 The Carnegie Mellon Business Technology Group combines hands-on
                 technical training and holistic engagement with the technology
-                indstury. Our strong community can be found around campus and
+                industry. Our strong community can be found around campus and
                 reinforces our dedicated yet fun culture.
               </p>
             </Col>
