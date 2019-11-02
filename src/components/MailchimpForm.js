@@ -56,6 +56,7 @@ const MailchimpForm = () => {
               <div className="mt-2">
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-muted"
                   href="https://us20.campaign-archive.com/home/?u=2f77ab610640a97c09a7c2193&id=17948cdb23"
                 >
