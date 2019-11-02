@@ -47,11 +47,21 @@ const MailchimpForm = () => {
             <div className="col-md-3">
               <input
                 type="submit"
+                target="_blank"
                 value="Sign up"
                 name="subscribe"
                 id="mc-embedded-subscribe"
                 className="btn btn-danger shadow-custom-danger w-100"
               ></input>
+              <div className="mt-2">
+                <a
+                  target="_blank"
+                  className="text-muted"
+                  href="https://us20.campaign-archive.com/home/?u=2f77ab610640a97c09a7c2193&id=17948cdb23"
+                >
+                  <small>View our past newsletters</small>
+                </a>
+              </div>
             </div>
           </div>
         </form>

@@ -116,6 +116,7 @@ function App() {
               member. Background knowledge in AI/ML not necessary, but general
               programming experience preferred.
             </p>
+            <p>Check back in spring 2020 for more opportunities.</p>
           </Col>
         </Row>
 
@@ -130,6 +131,7 @@ function App() {
               site through the semester and showcase your work. Past experience
               in web development preferred but not necessary.
             </p>
+            <p>Check back in spring 2020 for more opportunities.</p>
           </Col>
         </Row>
       </Container>
@@ -158,10 +160,10 @@ function App() {
               <h4 className="font-weight-bold">Meet the team</h4>
 
               <p className="py-5">
-                The Carnegie Mellon Business Technology Group combines hands-on
-                technical training and holistic engagement with the technology
-                industry. Our strong community can be found around campus and
-                reinforces our dedicated yet fun culture.
+                The CMUBTG combines hands-on technical training and holistic
+                engagement with the technology industry. Our strong community
+                can be found around campus and reinforces our dedicated yet fun
+                culture.
               </p>
             </Col>
           </Row>
