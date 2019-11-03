@@ -19,6 +19,7 @@ const Footer = () => {
           <Button
             variant="light"
             href="https://facebook.com/cmubtg"
+            target="_blank"
             className="mr-1"
           >
             <FaFacebookF />
@@ -26,6 +27,7 @@ const Footer = () => {
           <Button
             variant="light"
             href="https://instagram.com/cmubtg"
+            target="_blank"
             className="mr-1"
           >
             <FaInstagram />
@@ -33,6 +35,7 @@ const Footer = () => {
           <Button
             variant="light"
             href="https://github.com/cmubtg"
+            target="_blank"
             className="mr-1"
           >
             <FaGithub />
@@ -40,6 +43,7 @@ const Footer = () => {
           <Button
             variant="light"
             href="https://linkedin.com/company/cmubtg"
+            target="_blank"
             className="mr-1"
           >
             <FaLinkedinIn />
@@ -47,7 +51,7 @@ const Footer = () => {
           <p className="text-muted py-5">
             <small>
               Want to reach out? Send us a line at{" "}
-              <a href="mailto:info@cmubtg.com">info@cmubtg.com</a>
+              <a href="mailto:info@cmubtg.com" target="_blank" rel="noopener noreferrer">info@cmubtg.com</a>
             </small>
           </p>
         </Col>
