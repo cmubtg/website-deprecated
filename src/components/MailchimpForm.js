@@ -17,7 +17,6 @@ const MailchimpForm = () => {
           name="mc-embedded-subscribe-form"
           className="validate"
           target="_blank"
-          novalidate
         >
           <div className="form-row">
             <div className="col-md-9">
@@ -40,8 +39,6 @@ const MailchimpForm = () => {
               <input
                 type="text"
                 name="b_c043d73acfb9d61f492748d7b_5ce2d05829"
-                tabindex="-1"
-                value=""
               ></input>
             </div>
             <div className="col-md-3">
@@ -57,6 +54,7 @@ const MailchimpForm = () => {
                 <a
                   target="_blank"
                   className="text-muted"
+                  rel="noopener noreferrer"
                   href="https://us20.campaign-archive.com/home/?u=2f77ab610640a97c09a7c2193&id=17948cdb23"
                 >
                   <small>View our past newsletters</small>
