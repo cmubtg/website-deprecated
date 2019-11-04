@@ -19,7 +19,7 @@ function App() {
   return (
     <FadeIn>
       <Helmet>
-        <title>Home Page | CMU BTG</title>
+        <title>Home Page | CMUBTG</title>
       </Helmet>
 
       <Navigation />
