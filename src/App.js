@@ -47,9 +47,7 @@ function App() {
               We specialize in applied technology that improves work, play, and
               education.
             </p>
-          </Col>
-          <Col md={9}>
-            <p>
+
               Our mission is to provide undergraduates interested in technology
               with a strong understanding of potential career paths and offer
               them opportunities to gain hands-on experience in their areas of
@@ -184,7 +182,7 @@ function App() {
               memberName={"Jenny Zhu"}
               role={"Head of Curation"}
               imageUrl={
-                "https://media.licdn.com/dms/image/C4D03AQHpiBSWIdF3xw/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=jXOJvB3Zn8dxWb6RHrAdX5auhpxkba0jop7yHgbjbJI"
+                "https://media.licdn.com/dms/image/C4D03AQHpiBSWIdF3xw/profile-displayphoto-shrink_200_200/0?e=1579132800&v=beta&t=x9K-6pIieozuI8Sk8HchAgOJKEzhqDoy7554SunWs6o"
               }
               description={
                 "Jenny serves as the Head of Curation at CMUBTG. She is a senior studying Information Systems and Statistics and Machine Learning. Recently, Jenny has been enjoying jazz, funk, and sadboi lofi hip hop."
@@ -230,7 +228,7 @@ function App() {
               memberName={"Matthew Guo"}
               role={"Head of Design"}
               imageUrl={
-                "https://scontent.fagc3-2.fna.fbcdn.net/v/t1.0-9/54516161_2305266406420863_8869409634369142784_n.jpg?_nc_cat=101&_nc_oc=AQmlU1HGHN8KcH8_juvJj6WjtrzTLdh1fNcybc8MFgJ36qnsMjrCWi99qOpepzamv9A&_nc_ht=scontent.fagc3-2.fna&oh=7817adcb3ebd2378efdc362dc457bfcd&oe=5DC7CAD0"
+                "https://media.licdn.com/dms/image/C4E03AQGMtPZd9DYpTQ/profile-displayphoto-shrink_200_200/0?e=1579132800&v=beta&t=zBZ-MHALpD9EVu_yhLVPrJoywgPwSuMbeQA5ANa00nk"
               }
               description={
                 "Matthew is Head of Design at CMUBTG and studies Information Systems + HCI. Having grown up in Sydney and Shanghai, he is always willing to explore more of Pittsburgh."
@@ -241,7 +239,7 @@ function App() {
               memberName={"Navid Mamoon"}
               role={"Head of Growth"}
               imageUrl={
-                "https://media.licdn.com/dms/image/C5603AQF3AXlqvod16A/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=QS23gEsjP59XG9EVh7RWE3kYp_rRPjeigBmgA-icKfs"
+                "https://media.licdn.com/dms/image/C5603AQF3AXlqvod16A/profile-displayphoto-shrink_200_200/0?e=1579132800&v=beta&t=9i05x5t_nT76zD7vM7KL7nMpXbTHTdW6NmdjLl86uAM"
               }
               description={
                 "Navid is Head of Growth at CMUBTG. He is a sophomore studying Business Administration. Navid’s in love with his guitar and has recently taken up rock climbing in lieu of his failed attempts at working out."
