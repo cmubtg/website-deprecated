@@ -12,14 +12,14 @@ function RecruitingAlert() {
     return (
       <Alert
         variant="normal"
-        className="border rounded-0 text-center p-0 pt-3 m-0"
+        className="border-bottom rounded-0 text-center p-0 pt-3 m-0"
         onClose={() => setShow(false)}
       >
         <Container>
           <Row>
             <Col>
-              <p className="text-muted small">
-                If you applied to a BTG division, please check your inbox later this week for further instruction.
+              <p className="small">
+                Apply to become an <a href="https://forms.gle/Duo3JxLmvFuNdCTz9">Operations Director</a> by December 3<sup>rd</sup>, 9 PM EST
               </p>
             </Col>
           </Row>

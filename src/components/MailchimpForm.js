@@ -55,7 +55,6 @@ const MailchimpForm = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted"
-                  rel="noopener noreferrer"
                   href="https://us20.campaign-archive.com/home/?u=2f77ab610640a97c09a7c2193&id=17948cdb23"
                 >
                   <small>View our past newsletters</small>

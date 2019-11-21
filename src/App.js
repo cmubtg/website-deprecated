@@ -10,7 +10,8 @@ import Companies from "./components/Companies";
 import Footer from "./components/Footer";
 import MailchimpForm from "./components/MailchimpForm";
 import Navigation from "./components/Navigation";
-import TeamPhoto from "./components/TeamPhoto";
+import TeamSummary from "./components/TeamSummary";
+import RecruitingAlert from "./components/RecruitingAlert";
 
 ReactGA.initialize("UA-104764221-10");
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -23,6 +24,7 @@ function App() {
       </Helmet>
 
       <Navigation />
+      <RecruitingAlert />
 
       <Container className="mt-md-5 pt-md-5">
         <Row className="pt-5 mt-5">
@@ -47,7 +49,10 @@ function App() {
               We specialize in applied technology that improves work, play, and
               education.
             </p>
+          </Col>
 
+          <Col md={9}>
+            <p>
               Our mission is to provide undergraduates interested in technology
               with a strong understanding of potential career paths and offer
               them opportunities to gain hands-on experience in their areas of
@@ -76,7 +81,7 @@ function App() {
                   <Badge variant="primary" className="align-bottom">
                     37k
                   </Badge>{" "}
-                  Lines of code
+                  SLOC
                 </h4>
               </Col>
             </Row>
@@ -166,88 +171,7 @@ function App() {
             </Col>
           </Row>
 
-          <Row id="people">
-            <TeamPhoto
-              memberName={"Calvin Lui"}
-              role={"President"}
-              imageUrl={
-                "https://scontent.fphl2-4.fna.fbcdn.net/v/t1.0-9/64817755_10219950975144174_8409638470573621248_n.jpg?_nc_cat=108&_nc_oc=AQkgM5wsLobeyPvgy7GLuuiUq7c3frE9R7AArE622VQ2u2oLXAk6bzVMKA0WkRr-NVA&_nc_ht=scontent.fphl2-4.fna&oh=82e0974c32cb98ee38ae4ae45916f1ba&oe=5E13B3D0"
-              }
-              description={
-                "Calvin is the President of CMUBTG. He is a senior studying Information Systems. Calvin has been 6’3” since high school, but only recently this summer, he was able to touch the rim of a basketball hoop. Sad reacts only."
-              }
-            ></TeamPhoto>
-
-            <TeamPhoto
-              memberName={"Jenny Zhu"}
-              role={"Head of Curation"}
-              imageUrl={
-                "https://media.licdn.com/dms/image/C4D03AQHpiBSWIdF3xw/profile-displayphoto-shrink_200_200/0?e=1579132800&v=beta&t=x9K-6pIieozuI8Sk8HchAgOJKEzhqDoy7554SunWs6o"
-              }
-              description={
-                "Jenny serves as the Head of Curation at CMUBTG. She is a senior studying Information Systems and Statistics and Machine Learning. Recently, Jenny has been enjoying jazz, funk, and sadboi lofi hip hop."
-              }
-            ></TeamPhoto>
-
-            <TeamPhoto
-              memberName={"Eric Cheng"}
-              role={"Head of Product"}
-              imageUrl={
-                "https://scontent.fphl2-3.fna.fbcdn.net/v/t1.0-9/67881568_874773979570522_7004249365149646848_n.jpg?_nc_cat=104&_nc_oc=AQmc74TtkZBU1JTSS_IjV0_bImkRZqvrS4uRTFbVa_se5SC8PfIjChV83fIbLbYQX5Y&_nc_ht=scontent.fphl2-3.fna&oh=660c6ed89d89e51ab4fc4ba66aa31680&oe=5DF78DDE"
-              }
-              description={
-                "Eric serves as Head of Product at CMUBTG. He studies business at Carnegie Mellon. Fun fact: Eric is probably BTG’s best chef. He cooked this very website, too!"
-              }
-            ></TeamPhoto>
-
-            <TeamPhoto
-              memberName={"Will Zeng"}
-              role={"Head of Education"}
-              imageUrl={
-                "https://scontent.fphl2-4.fna.fbcdn.net/v/t1.0-9/37290259_272554483506268_6348707729372086272_n.jpg?_nc_cat=111&_nc_oc=AQnmp5lIzlq_EiLZR3ZYzKNupIGskkZ3SVel_avZLtSEwjsCwwjLIsR_4Kdu6dWqlic&_nc_ht=scontent.fphl2-4.fna&oh=0c71310eadce266e1a41d43f31bc2bd0&oe=5DF2BF91"
-              }
-              description={
-                "William is the Head of Education at CMUBTG. He is a sophomore studying Statistics and Machine Learning. He enjoys game theory and games of chance."
-              }
-            ></TeamPhoto>
-          </Row>
-
-          <Row>
-            <TeamPhoto
-              memberName={"Yvonne Liang"}
-              role={"Head of Finance"}
-              imageUrl={
-                "https://scontent.fagc3-2.fna.fbcdn.net/v/t1.0-1/70738858_2356018594667735_1973856107545755648_n.jpg?_nc_cat=105&_nc_oc=AQkrodaIwidrMu_PAp1HJ3Vo-vKc2OOVDUOp7MKm1YmxiMUrF-FlzJnyHd0vQp0YsGg&_nc_ht=scontent.fagc3-2.fna&oh=515128804a48b2d8f95cc27aab75bf2c&oe=5DF1A5E4"
-              }
-              description={
-                "Yvonne is the Head of Finance at CMUBTG. She is a sophomore studying business. She enjoys hikes and lakes."
-              }
-            ></TeamPhoto>
-
-            <TeamPhoto
-              memberName={"Matthew Guo"}
-              role={"Head of Design"}
-              imageUrl={
-                "https://media.licdn.com/dms/image/C4E03AQGMtPZd9DYpTQ/profile-displayphoto-shrink_200_200/0?e=1579132800&v=beta&t=zBZ-MHALpD9EVu_yhLVPrJoywgPwSuMbeQA5ANa00nk"
-              }
-              description={
-                "Matthew is Head of Design at CMUBTG and studies Information Systems + HCI. Having grown up in Sydney and Shanghai, he is always willing to explore more of Pittsburgh."
-              }
-            ></TeamPhoto>
-
-            <TeamPhoto
-              memberName={"Navid Mamoon"}
-              role={"Head of Growth"}
-              imageUrl={
-                "https://media.licdn.com/dms/image/C5603AQF3AXlqvod16A/profile-displayphoto-shrink_200_200/0?e=1579132800&v=beta&t=9i05x5t_nT76zD7vM7KL7nMpXbTHTdW6NmdjLl86uAM"
-              }
-              description={
-                "Navid is Head of Growth at CMUBTG. He is a sophomore studying Business Administration. Navid’s in love with his guitar and has recently taken up rock climbing in lieu of his failed attempts at working out."
-              }
-            ></TeamPhoto>
-
-            <Col md={3} sm={6} className="pt-4"></Col>
-          </Row>
+          <TeamSummary />
         </Container>
       </div>
 
