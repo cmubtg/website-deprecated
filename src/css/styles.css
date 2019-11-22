@@ -82,6 +82,11 @@ html {
     z-index: 3;
     padding-top: 15px;
     padding-bottom: 15px;
+    text-align: center;
+  }
+
+  .team-photo-wrapper {
+    padding: 0 15px;
   }
 
   .team-description p {
