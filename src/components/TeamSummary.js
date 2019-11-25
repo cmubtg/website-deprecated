@@ -21,7 +21,7 @@ function TeamSummary() {
             CalvinPhoto
           }
           description={
-            "Calvin is the President of CMUBTG. He is a senior studying Information Systems. Calvin has been 6’3” since high school, but only recently this summer, he was able to touch the rim of a basketball hoop. Sad reacts only."
+            "Calvin is a senior studying information systems. Calvin has been 6’3” since high school, but only recently this summer, he was able to touch the rim of a basketball hoop. Sad reacts only."
           }
         ></TeamPhoto>
 
@@ -32,7 +32,7 @@ function TeamSummary() {
             JennyPhoto
           }
           description={
-            "Jenny serves as the Head of Curation at CMUBTG. She is a senior studying Information Systems and Statistics and Machine Learning. Recently, Jenny has been enjoying jazz, funk, and sadboi lofi hip hop."
+            "Jenny is a senior studying information systems as well as statistics and machine Learning. Recently, Jenny has been enjoying jazz, funk, and sadboi lofi hip hop."
           }
         ></TeamPhoto>
 
@@ -43,7 +43,7 @@ function TeamSummary() {
             EricPhoto
           }
           description={
-            "Eric serves as Head of Product at CMUBTG. He studies business at Carnegie Mellon. Fun fact: Eric is probably BTG’s best chef. He cooked this very website, too!"
+            "Eric studies business at Carnegie Mellon. Fun fact: Eric is probably BTG’s best chef. He cooked this very website, too!"
           }
         ></TeamPhoto>
 
@@ -54,7 +54,7 @@ function TeamSummary() {
             WillPhoto
           }
           description={
-            "William is the Head of Education at CMUBTG. He is a sophomore studying Statistics and Machine Learning. He enjoys game theory and games of chance."
+            "William is a sophomore studying Statistics and Machine Learning. He enjoys game theory and games of chance."
           }
         ></TeamPhoto>
       </Row>
@@ -67,7 +67,7 @@ function TeamSummary() {
             YvonnePhoto
           }
           description={
-            "Yvonne is the Head of Finance at CMUBTG. She is a sophomore studying business. She enjoys hikes and lakes."
+            "Yvonne is a sophomore studying business. She enjoys hikes and lakes."
           }
         ></TeamPhoto>
 
@@ -78,7 +78,7 @@ function TeamSummary() {
             MattPhoto
           }
           description={
-            "Matthew is Head of Design at CMUBTG and studies Information Systems + HCI. Having grown up in Sydney and Shanghai, he is always willing to explore more of Pittsburgh."
+            "Matthew studies information systems and human-computer interaction. Having grown up in Sydney and Shanghai, he is always willing to explore more of Pittsburgh."
           }
         ></TeamPhoto>
 
@@ -89,7 +89,7 @@ function TeamSummary() {
             NavidPhoto
           }
           description={
-            "Navid is Head of Growth at CMUBTG. He is a sophomore studying Business Administration. Navid’s in love with his guitar and has recently taken up rock climbing in lieu of his failed attempts at working out."
+            "Navid is a sophomore studying information systems. Navid’s in love with his guitar and has recently taken up rock climbing in lieu of his failed attempts at working out."
           }
         ></TeamPhoto>
 
