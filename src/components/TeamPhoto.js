@@ -9,6 +9,7 @@ function TeamPhoto(props) {
       placement="right"
       overlay={
         <Popover id="popover-basic">
+          <Popover.Title as="h3">{props.memberName}, {props.role}</Popover.Title>
           <Popover.Content>{props.description}</Popover.Content>
         </Popover>
       }
