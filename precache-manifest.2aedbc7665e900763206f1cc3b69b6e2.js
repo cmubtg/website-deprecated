@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "963729e1a2e34e18ce6599ac7e9f9eb1",
+    "revision": "91377aca3e0557c70afe67b25338dab0",
     "url": "/index.html"
   },
   {
-    "revision": "51a1519c95b72acfbb2b",
+    "revision": "e3e0118faf924968e9a1",
     "url": "/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "b531df82aef544efd50b",
+    "revision": "8772b73cf4c0f1b8c52d",
     "url": "/static/css/main.ad6ee557.chunk.css"
   },
   {
-    "revision": "51a1519c95b72acfbb2b",
-    "url": "/static/js/2.6451d011.chunk.js"
+    "revision": "e3e0118faf924968e9a1",
+    "url": "/static/js/2.74e02afa.chunk.js"
   },
   {
-    "revision": "b531df82aef544efd50b",
-    "url": "/static/js/main.c94c3471.chunk.js"
+    "revision": "8772b73cf4c0f1b8c52d",
+    "url": "/static/js/main.3d64ecaf.chunk.js"
   },
   {
     "revision": "e161c7bc40b32e25ae35",
     "url": "/static/js/runtime~main.c32de975.js"
+  },
+  {
+    "revision": "aaf3cfe76df41f531b63a499355a0c95",
+    "url": "/static/media/amazon.aaf3cfe7.svg"
   },
   {
     "revision": "63cdf4930f52d3c18b87cae8e3ba116b",
@@ -74,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e4a3dec2cc01d9a2e0f993bb8e23cb25",
     "url": "/static/media/navid.e4a3dec2.jpg"
+  },
+  {
+    "revision": "a8efa9f43bebf2f9b0664d25b7f95a71",
+    "url": "/static/media/roblox.a8efa9f4.svg"
   },
   {
     "revision": "8499c8e5f2c80a427f7695acd9d4bcf9",
