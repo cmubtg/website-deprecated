@@ -19,7 +19,7 @@ function RecruitingAlert() {
           <Row>
             <Col>
               <p className="small">
-                Apply to become an <a href="https://forms.gle/Duo3JxLmvFuNdCTz9">Operations Director</a> by December 3<sup>rd</sup>, 9 PM EST
+                Apply to become an <a href="https://forms.gle/Duo3JxLmvFuNdCTz9">Outreach Director</a> by December 3<sup>rd</sup>, 9 PM EST
               </p>
             </Col>
           </Row>
