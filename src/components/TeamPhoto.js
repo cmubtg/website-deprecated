@@ -13,8 +13,8 @@ function TeamPhoto(props) {
         </Popover>
       }
     >
-      <Col md={3} sm={6} xs={12} className="p-0">
-        <div className="team-photo-wrapper">
+      <Col md={3} sm={6} xs={6} className="p-0">
+        <div className="team-photo-wrapper p-0">
           <div className="team-photo">
             <img
               src={props.imageUrl}
