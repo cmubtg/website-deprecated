@@ -12,6 +12,7 @@ import MailchimpForm from "./components/MailchimpForm";
 import Navigation from "./components/Navigation";
 import TeamSummary from "./components/TeamSummary";
 import RecruitingAlert from "./components/RecruitingAlert";
+import BTGCover from "./images/btg-cover.png";
 
 ReactGA.initialize("UA-104764221-10");
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -21,6 +22,8 @@ function App() {
     <FadeIn>
       <Helmet>
         <title>Home Page | CMUBTG</title>
+        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta name="twitter:image" content={BTGCover}></meta>
       </Helmet>
 
       <Navigation />
