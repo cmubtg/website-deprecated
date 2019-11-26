@@ -9,7 +9,6 @@ import Mastercard from "../images/mastercard.svg";
 import Microsoft from "../images/microsoft.svg";
 import Spotify from "../images/spotify.svg";
 import Roblox from "../images/roblox.svg";
-import Amazon from "../images/amazon.svg";
 import YC from "../images/yc.svg";
 
 const Companies = () => {
@@ -97,15 +96,6 @@ const Companies = () => {
             <img
               src={Roblox}
               alt="roblox"
-              className="img-fluid company-svg boeing-logo"
-            />
-          </div>
-        </Col>
-        <Col xs={6} md={3}>
-          <div className="company-photo pt-4 text-center">
-            <img
-              src={Amazon}
-              alt="amazon"
               className="img-fluid company-svg boeing-logo"
             />
           </div>
