@@ -11,7 +11,6 @@ import Footer from "./components/Footer";
 import MailchimpForm from "./components/MailchimpForm";
 import Navigation from "./components/Navigation";
 import TeamSummary from "./components/TeamSummary";
-import RecruitingAlert from "./components/RecruitingAlert";
 import BTGCover from "./images/btg-cover.png";
 
 ReactGA.initialize("UA-104764221-10");
@@ -27,7 +26,6 @@ function App() {
       </Helmet>
 
       <Navigation />
-      <RecruitingAlert />
 
       <Container className="mt-md-5 pt-md-5">
         <Row className="pt-5 mt-5">
