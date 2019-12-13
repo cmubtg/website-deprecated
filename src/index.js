@@ -4,7 +4,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import "bootstrap/dist/css/bootstrap.css";
 import "./css/styles.css"
-
+import "./css/companies.css"
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

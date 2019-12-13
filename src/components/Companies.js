@@ -1,6 +1,6 @@
 import React from "react";
-import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import Company from "./Company";
 import Boeing from "../images/boeing.svg";
 import Bofa from "../images/bofa.svg";
 import CapitalOne from "../images/capitalone.svg";
@@ -10,96 +10,26 @@ import Microsoft from "../images/microsoft.svg";
 import Spotify from "../images/spotify.svg";
 import Roblox from "../images/roblox.svg";
 import YC from "../images/yc.svg";
+import PayPal from "../images/paypal.svg";
 
 const Companies = () => {
   return (
     <>
       <Row>
-        <Col xs={6} md={3}>
-          <div className="company-photo pt-4 text-center">
-            <img
-              src={Microsoft}
-              alt="microsoft"
-              className="img-fluid company-svg microsoft-logo"
-            />
-          </div>
-        </Col>
-        <Col xs={6} md={3}>
-          <div className="company-photo pt-4 text-center">
-            <img
-              src={Spotify}
-              alt="spotify"
-              className="img-fluid company-svg spotify-logo"
-            />
-          </div>
-        </Col>
-        <Col xs={6} md={3}>
-          <div className="company-photo pt-4 text-center">
-            <img
-              src={YC}
-              alt="ycombinator"
-              className="img-fluid company-svg ycombinator-logo"
-            />
-          </div>
-        </Col>
-        <Col xs={6} md={3}>
-          <div className="company-photo pt-4 text-center">
-            <img
-              src={Mastercard}
-              alt="mastercard"
-              className="img-fluid company-svg mastercard-logo"
-            />
-          </div>
-        </Col>
+        <Company name="microsoft" company={Microsoft}></Company>
+        <Company name="spotify" company={Spotify}></Company>
+        <Company name="yc" company={YC}></Company>
+        <Company name="mastercard" company={Mastercard}></Company>
       </Row>
       <Row>
-        <Col xs={6} md={3}>
-          <div className="company-photo pt-4 text-center">
-            <img
-              src={Boeing}
-              alt="boeing"
-              className="img-fluid company-svg boeing-logo"
-            />
-          </div>
-        </Col>
-        <Col xs={6} md={3}>
-          <div className="company-photo pt-4 text-center">
-            <img
-              src={Deutsche}
-              alt="deutsche"
-              className="img-fluid company-svg deutsche-logo"
-            />
-          </div>
-        </Col>
-        <Col xs={6} md={3}>
-          <div className="company-photo pt-4 text-center">
-            <img
-              src={Bofa}
-              alt="bofa"
-              className="img-fluid company-svg bofa-logo"
-            />
-          </div>
-        </Col>
-        <Col xs={6} md={3}>
-          <div className="company-photo pt-4 text-center">
-            <img
-              src={CapitalOne}
-              alt="capitalone"
-              className="img-fluid company-svg capitalone-logo"
-            />
-          </div>
-        </Col>
+        <Company name="boeing" company={Boeing}></Company>
+        <Company name="deutsche" company={Deutsche}></Company>
+        <Company name="bofa" company={Bofa}></Company>
+        <Company name="capitalone" company={CapitalOne}></Company>
       </Row>
       <Row>
-        <Col xs={6} md={3}>
-          <div className="company-photo pt-4 text-center">
-            <img
-              src={Roblox}
-              alt="roblox"
-              className="img-fluid company-svg boeing-logo"
-            />
-          </div>
-        </Col>
+        <Company name="roblox" company={Roblox}></Company>
+        <Company name="paypal" company={PayPal}></Company>
       </Row>
     </>
   );

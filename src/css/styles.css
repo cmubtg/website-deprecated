@@ -172,34 +172,6 @@ html {
   background-color: #ff2f44;
 }
 
-.microsoft-logo {
-  height: 2rem;
-}
-
-.spotify-logo {
-  height: 2rem;
-}
-
-.ycombinator-logo {
-  height: 2rem;
-}
-
-.mastercard-logo {
-  height: 2rem;
-}
-
-.boeing-logo {
-  height: 2rem;
-}
-
-.deutsche-logo {
-  height: 2rem;
-}
-
-.capitalone-logo {
-  height: 2rem;
-}
-
 .navbar-light .navbar-toggler-icon {
   background-image: url("../images/toggler.svg");
   border: none;
