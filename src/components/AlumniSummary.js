@@ -39,7 +39,7 @@ function TeamSummary() {
           memberName="Ashwin Rao"
           role="PayPal"
           imageUrl={AshwinPhoto}
-          description={"MS Product Management, 2020, former product manager."}
+          description={"MS, Product Management, 2020, former product manager."}
         ></TeamPhoto>
 
         <TeamPhoto
