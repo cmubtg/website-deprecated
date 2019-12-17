@@ -11,6 +11,10 @@ import Spotify from "../images/spotify.svg";
 import Roblox from "../images/roblox.svg";
 import YC from "../images/yc.svg";
 import PayPal from "../images/paypal.svg";
+import Deloitte from "../images/deloitte.svg";
+import IBM from "../images/ibm.svg";
+import Publicis from "../images/publicis.svg";
+import PWC from "../images/pwc.svg";
 
 const Companies = () => {
   return (
@@ -30,6 +34,12 @@ const Companies = () => {
       <Row>
         <Company name="roblox" company={Roblox}></Company>
         <Company name="paypal" company={PayPal}></Company>
+        <Company name="ibm" company={IBM}></Company>
+        <Company name="deloitte" company={Deloitte}></Company>
+      </Row>
+      <Row>
+        <Company name="publicis" company={Publicis}></Company>
+        <Company name="pwc" company={PWC}></Company>
       </Row>
     </>
   );

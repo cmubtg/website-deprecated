@@ -130,7 +130,7 @@ function Home() {
               You’re in good company. Whatever your goals may be, CMUBTG can
               support and guide you towards your highest potential. CMUBTG
               members and alumni lead, deploy, and design exciting projects
-              across the industry. Here's where some currently work or have worked!
+              across the industry. Here's where some currently work and have worked.
             </p>
           </Col>
         </Row>
