@@ -63,7 +63,9 @@ function TeamSummary() {
           memberName="Evan Feder"
           role="Head of Research"
           imageUrl={EvanPhoto}
-          description={"'Uhm I'm a black belt in shaolin kung fu. I've played the drums for 9 years. I threw the first pitch at a pirates game. Played semi-professional Magic the Gathering. Made the top CMU meme of the month, March 2919. Sat in a meeting with former Chair of the Federal Reserve Paul Volcker.'"}
+          description={
+            "'Uhm I'm a black belt in shaolin kung fu. I've played the drums for 9 years. I threw the first pitch at a pirates game. Played semi-professional Magic the Gathering. Made the top CMU meme of the month, March 2919. Sat in a meeting with former Chair of the Federal Reserve Paul Volcker.' Evan is a junior studying information systems, in addition to statistics and machine learning."
+          }
         ></TeamPhoto>
       </Row>
     </React.Fragment>
