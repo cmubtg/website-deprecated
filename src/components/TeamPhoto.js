@@ -20,7 +20,7 @@ function TeamPhoto(props) {
             <img
               src={props.imageUrl}
               alt={props.memberName}
-              className="img-fluid shadow-custom"
+              className="img-fluid profile-img-fluid shadow-custom"
             />
           </div>
           <div className="team-description px-3">

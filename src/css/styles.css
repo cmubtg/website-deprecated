@@ -108,6 +108,10 @@ html {
     z-index: 3;
     color: white;
   }
+
+  .profile-img-fluid {
+    min-height: 240px;
+  }
 }
 
 .container {

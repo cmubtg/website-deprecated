@@ -28,10 +28,8 @@ function Navigation() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto"></Nav>
             <Nav>
-              <Nav.Link href="#people">People</Nav.Link>
-              <Nav.Link eventKey={2} href="#contact">
-                Get in touch
-              </Nav.Link>
+              <Nav.Link href="/alumni">Alumni</Nav.Link>
+              <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
