@@ -64,7 +64,7 @@ function App() {
               <Col xs={12} md={4}>
                 <h4 className="font-weight-bold">
                   <Badge variant="danger" className="align-bottom">
-                    3
+                    2
                   </Badge>{" "}
                   Divisions
                 </h4>
@@ -80,31 +80,12 @@ function App() {
               <Col xs={12} md={4}>
                 <h4 className="font-weight-bold">
                   <Badge variant="primary" className="align-bottom">
-                    37k
+                    2
                   </Badge>{" "}
-                  SLOC
+                  Events
                 </h4>
               </Col>
             </Row>
-          </Col>
-        </Row>
-
-        <Row className="mt-5">
-          <Col md={3}>
-            <span className="font-weight-bold">
-              BTG Academy&nbsp;
-              <Badge pill="true" variant="danger">
-                OPEN
-              </Badge>
-            </span>
-          </Col>
-          <Col md={9}>
-            <p>
-              Selected lectures from our curriculum that teach a variety of
-              skills in database management, web development, API usage, UI/UX
-              design, and much more. No technical experience or background is
-              necessary.
-            </p>
           </Col>
         </Row>
 
