@@ -19,6 +19,7 @@ function TeamSummary() {
           description={
             "Eric studies business at Carnegie Mellon. Fun fact: Eric is probably BTG’s best chef. He cooked this very website, too!"
           }
+          profile="https://www.linkedin.com/in/eric-cheng986/"
         ></TeamPhoto>
 
         <TeamPhoto
@@ -28,6 +29,7 @@ function TeamSummary() {
           description={
             "William is a sophomore studying Statistics and Machine Learning. He enjoys game theory and games of chance."
           }
+          profile="https://www.linkedin.com/in/william-zeng/"
         ></TeamPhoto>
 
         <TeamPhoto
@@ -37,6 +39,7 @@ function TeamSummary() {
           description={
             "Yvonne is a sophomore studying business. She enjoys hikes and lakes."
           }
+          profile="https://www.linkedin.com/in/yvonne-liang-1b9a56190/"
         ></TeamPhoto>
 
         <TeamPhoto
@@ -46,6 +49,7 @@ function TeamSummary() {
           description={
             "Matthew studies information systems and human-computer interaction. Having grown up in Sydney and Shanghai, he is always willing to explore more of Pittsburgh."
           }
+          profile="https://www.linkedin.com/in/matthew-guo-003781173/"
         ></TeamPhoto>
       </Row>
 
@@ -57,6 +61,7 @@ function TeamSummary() {
           description={
             "Navid is a sophomore studying information systems. Navid’s in love with his guitar and has recently taken up rock climbing in lieu of his failed attempts at working out."
           }
+          profile="https://www.linkedin.com/in/navid-mamoon/"
         ></TeamPhoto>
 
         <TeamPhoto
@@ -66,6 +71,7 @@ function TeamSummary() {
           description={
             "'Uhm I'm a black belt in shaolin kung fu. I've played the drums for 9 years. I threw the first pitch at a pirates game. Played semi-professional Magic the Gathering. Made the top CMU meme of the month, March 2019. Sat in a meeting with former Chair of the Federal Reserve Paul Volcker.' Evan is a junior studying information systems, in addition to statistics and machine learning."
           }
+          profile="https://www.linkedin.com/in/evanfeder/"
         ></TeamPhoto>
       </Row>
     </React.Fragment>

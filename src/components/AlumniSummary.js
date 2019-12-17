@@ -28,6 +28,7 @@ function TeamSummary() {
           role="Microsoft"
           imageUrl={CalvinPhoto}
           description={"BS, Information Systems, 2020, former president."}
+          profile="https://www.linkedin.com/in/calvinhklui/"
         ></TeamPhoto>
 
         <TeamPhoto
@@ -35,6 +36,7 @@ function TeamSummary() {
           role="Spotify"
           imageUrl={JennyPhoto}
           description={"BS, Information Systems, 2020, former head of curation."}
+          profile="https://www.linkedin.com/in/jenny-z-34b65ba7/"
         ></TeamPhoto>
 
         <TeamPhoto
@@ -42,6 +44,7 @@ function TeamSummary() {
           role="PayPal"
           imageUrl={AshwinPhoto}
           description={"MS, Product Management, 2020, former product manager."}
+          profile="https://www.linkedin.com/in/ashwinraog/"
         ></TeamPhoto>
 
         <TeamPhoto
@@ -49,6 +52,7 @@ function TeamSummary() {
           role="Microsoft"
           imageUrl={KaranPhoto}
           description={"BS, Information Systems, 2019, former president."}
+          profile="https://www.linkedin.com/in/karanbokil/"
         ></TeamPhoto>
       </Row>
       <Row>
@@ -57,6 +61,7 @@ function TeamSummary() {
           role="Rent the Backyard (YC W2019)"
           imageUrl={SpencerPhoto}
           description={"BS, Statistics and Machine Learning, on leave, former vice president of technology."}
+          profile="https://www.linkedin.com/in/spencerburleigh/"
         ></TeamPhoto>
 
         <TeamPhoto
@@ -64,6 +69,7 @@ function TeamSummary() {
           role="Amperity"
           imageUrl={EmilyPhoto}
           description={"BS, Business Administration, 2018, former president."}
+          profile="https://www.linkedin.com/in/emilyhirao/"
         ></TeamPhoto>
 
         <TeamPhoto
@@ -71,6 +77,7 @@ function TeamSummary() {
           role="IBM"
           imageUrl={MichellePhoto}
           description={"BS, Business Administration, 2017, former president."}
+          profile="https://www.linkedin.com/in/michelle-wcho/"
         ></TeamPhoto>
 
         <TeamPhoto
@@ -78,6 +85,7 @@ function TeamSummary() {
           role="Comcast"
           imageUrl={SuePhoto}
           description={"Former president."}
+          profile="https://www.linkedin.com/in/parksusanna/"
         ></TeamPhoto>
       </Row>
       <Row>
@@ -86,6 +94,7 @@ function TeamSummary() {
           role="Publicis Sapient"
           imageUrl={AnnettePhoto}
           description={"BS, Business Administration, 2018, former vice president."}
+          profile="https://www.linkedin.com/in/annettejeffs/"
         ></TeamPhoto>
 
         <TeamPhoto
@@ -93,6 +102,7 @@ function TeamSummary() {
           role="Deloitte"
           imageUrl={NicPhoto}
           description={"BS, Business Administration, 2018, former vice president."}
+          profile="https://www.linkedin.com/in/nic-cheung-08860986/"
         ></TeamPhoto>
       </Row>
     </React.Fragment>
