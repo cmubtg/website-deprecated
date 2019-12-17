@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.e1d06bc1.chunk.css",
-    "main.js": "/static/js/main.6b42674e.chunk.js",
-    "main.js.map": "/static/js/main.6b42674e.chunk.js.map",
+    "main.js": "/static/js/main.a43f7ff0.chunk.js",
+    "main.js.map": "/static/js/main.a43f7ff0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.70098a84.js",
     "runtime-main.js.map": "/static/js/runtime-main.70098a84.js.map",
     "static/css/2.833dd627.chunk.css": "/static/css/2.833dd627.chunk.css",
-    "static/js/2.74a87a2f.chunk.js": "/static/js/2.74a87a2f.chunk.js",
-    "static/js/2.74a87a2f.chunk.js.map": "/static/js/2.74a87a2f.chunk.js.map",
+    "static/js/2.e163c113.chunk.js": "/static/js/2.e163c113.chunk.js",
+    "static/js/2.e163c113.chunk.js.map": "/static/js/2.e163c113.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4dd33afaf4497d2d8e6306f41aac8353.js": "/precache-manifest.4dd33afaf4497d2d8e6306f41aac8353.js",
+    "precache-manifest.132ddd6265f898038959fd281deca1f6.js": "/precache-manifest.132ddd6265f898038959fd281deca1f6.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.833dd627.chunk.css.map": "/static/css/2.833dd627.chunk.css.map",
     "static/css/main.e1d06bc1.chunk.css.map": "/static/css/main.e1d06bc1.chunk.css.map",
-    "static/js/2.74a87a2f.chunk.js.LICENSE": "/static/js/2.74a87a2f.chunk.js.LICENSE",
+    "static/js/2.e163c113.chunk.js.LICENSE": "/static/js/2.e163c113.chunk.js.LICENSE",
     "static/media/ashwin.jpg": "/static/media/ashwin.1fedd2b6.jpg",
     "static/media/boeing.svg": "/static/media/boeing.63cdf493.svg",
     "static/media/bofa.svg": "/static/media/bofa.b0cf7268.svg",
@@ -33,6 +33,7 @@
     "static/media/michelle.jpg": "/static/media/michelle.f71a0b58.jpg",
     "static/media/microsoft.svg": "/static/media/microsoft.8307ca44.svg",
     "static/media/navid.jpg": "/static/media/navid.e4a3dec2.jpg",
+    "static/media/nic.jpg": "/static/media/nic.15902d08.jpg",
     "static/media/paypal.svg": "/static/media/paypal.d394222a.svg",
     "static/media/roblox.svg": "/static/media/roblox.a8efa9f4.svg",
     "static/media/spencer.jpg": "/static/media/spencer.a469e91b.jpg",
@@ -45,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.70098a84.js",
     "static/css/2.833dd627.chunk.css",
-    "static/js/2.74a87a2f.chunk.js",
+    "static/js/2.e163c113.chunk.js",
     "static/css/main.e1d06bc1.chunk.css",
-    "static/js/main.6b42674e.chunk.js"
+    "static/js/main.a43f7ff0.chunk.js"
   ]
 }
