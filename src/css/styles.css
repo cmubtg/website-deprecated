@@ -108,10 +108,12 @@ html {
     z-index: 3;
     color: white;
   }
+}
 
-  .profile-img-fluid {
-    min-height: 240px;
-  }
+.profile-img-fluid {
+  width: 100%; /* or any custom size */
+  height: 100%; 
+  object-fit: contain;
 }
 
 .container {
@@ -205,4 +207,8 @@ html {
 .nav-link-text:hover {
   color: rgba(0, 0, 0, 1);
   text-decoration: none;
+}
+
+.icon-link, .icon-link:hover {
+  color: inherit;
 }

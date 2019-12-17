@@ -30,7 +30,7 @@ function TeamPhoto(props) {
             <h4 className="font-weight-bold">{props.memberName}</h4>
             <p>
               <small>{props.role}</small>{" "}
-              <a className="text-white" href={props.profile}>
+              <a className="icon-link" href={props.profile}>
                 <FaLinkedinIn />
               </a>
             </p>

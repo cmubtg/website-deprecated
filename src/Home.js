@@ -74,7 +74,7 @@ function Home() {
                   <Badge variant="success" className="align-bottom">
                     10
                   </Badge>{" "}
-                  Lectures
+                  Workshops
                 </h4>
               </Col>
               <Col xs={12} md={4}>
@@ -82,7 +82,7 @@ function Home() {
                   <Badge variant="primary" className="align-bottom">
                     2
                   </Badge>{" "}
-                  Events
+                  Career Events
                 </h4>
               </Col>
             </Row>
@@ -111,10 +111,7 @@ function Home() {
           </Col>
           <Col md={9}>
             <p>
-              Full-stack web development using industry standard tools i.e.
-              React, GatsbyJS, Next.js, Redux, npm. Produce your own portfolio
-              site through the semester and showcase your work. Past experience
-              in web development preferred but not necessary.
+              Create compelling digital services and products that the campus community will use. Use industry standard web development languages and product development techniques to build and iterate. Previous experience in web development not necessary.
             </p>
             <p>Check back in spring 2020 for more opportunities.</p>
           </Col>
