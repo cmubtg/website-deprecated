@@ -1,29 +1,28 @@
 {
   "files": {
     "main.css": "/static/css/main.98acaf64.chunk.css",
-    "main.js": "/static/js/main.16ddb241.chunk.js",
-    "main.js.map": "/static/js/main.16ddb241.chunk.js.map",
+    "main.js": "/static/js/main.c9069cb4.chunk.js",
+    "main.js.map": "/static/js/main.c9069cb4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.70098a84.js",
     "runtime-main.js.map": "/static/js/runtime-main.70098a84.js.map",
     "static/css/2.833dd627.chunk.css": "/static/css/2.833dd627.chunk.css",
-    "static/js/2.f4f82bb2.chunk.js": "/static/js/2.f4f82bb2.chunk.js",
-    "static/js/2.f4f82bb2.chunk.js.map": "/static/js/2.f4f82bb2.chunk.js.map",
+    "static/js/2.497ea71e.chunk.js": "/static/js/2.497ea71e.chunk.js",
+    "static/js/2.497ea71e.chunk.js.map": "/static/js/2.497ea71e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fd1ddc5ec706ea7ec0ef87be40b6bf7d.js": "/precache-manifest.fd1ddc5ec706ea7ec0ef87be40b6bf7d.js",
+    "precache-manifest.d08219d96ecc9185ce008faf77089b60.js": "/precache-manifest.d08219d96ecc9185ce008faf77089b60.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.833dd627.chunk.css.map": "/static/css/2.833dd627.chunk.css.map",
     "static/css/main.98acaf64.chunk.css.map": "/static/css/main.98acaf64.chunk.css.map",
-    "static/js/2.f4f82bb2.chunk.js.LICENSE": "/static/js/2.f4f82bb2.chunk.js.LICENSE",
+    "static/js/2.497ea71e.chunk.js.LICENSE": "/static/js/2.497ea71e.chunk.js.LICENSE",
     "static/media/boeing.svg": "/static/media/boeing.63cdf493.svg",
     "static/media/bofa.svg": "/static/media/bofa.b0cf7268.svg",
     "static/media/btg-cover.png": "/static/media/btg-cover.d13f1080.png",
     "static/media/btg-logo-gray.svg": "/static/media/btg-logo-gray.e9babc29.svg",
     "static/media/btg-logo-white-red.svg": "/static/media/btg-logo-white-red.bb62b0d4.svg",
-    "static/media/calvin.jpg": "/static/media/calvin.7b92d641.jpg",
     "static/media/capitalone.svg": "/static/media/capitalone.217b6ba4.svg",
     "static/media/deutsche.svg": "/static/media/deutsche.b03ada73.svg",
     "static/media/eric.jpg": "/static/media/eric.1b33c81e.jpg",
-    "static/media/jenny.jpeg": "/static/media/jenny.dd40cf00.jpeg",
+    "static/media/evan.jpeg": "/static/media/evan.c909d804.jpeg",
     "static/media/mastercard.svg": "/static/media/mastercard.2aec37a5.svg",
     "static/media/matt.jpg": "/static/media/matt.b4b3088d.jpg",
     "static/media/microsoft.svg": "/static/media/microsoft.8307ca44.svg",
@@ -39,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.70098a84.js",
     "static/css/2.833dd627.chunk.css",
-    "static/js/2.f4f82bb2.chunk.js",
+    "static/js/2.497ea71e.chunk.js",
     "static/css/main.98acaf64.chunk.css",
-    "static/js/main.16ddb241.chunk.js"
+    "static/js/main.c9069cb4.chunk.js"
   ]
 }
