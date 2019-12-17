@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import LogoColor from "../images/btg-logo-white-red.svg";
+import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
@@ -28,7 +29,7 @@ function Navigation() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto"></Nav>
             <Nav>
-              <Nav.Link href="/alumni">Alumni</Nav.Link>
+              <Nav.Link href="/alumni"><Link className="nav-link-text" to="/alumni">Alumni</Link></Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>

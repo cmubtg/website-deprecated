@@ -36,17 +36,17 @@ function TeamSummary() {
         ></TeamPhoto>
 
         <TeamPhoto
-          memberName="Karan Bokil"
-          role="Microsoft"
-          imageUrl={KaranPhoto}
-          description={"BS, Information Systems, 2019, former president."}
-        ></TeamPhoto>
-
-        <TeamPhoto
           memberName="Ashwin Rao"
           role="PayPal"
           imageUrl={AshwinPhoto}
           description={"MS Product Management, 2020, former product manager."}
+        ></TeamPhoto>
+
+        <TeamPhoto
+          memberName="Karan Bokil"
+          role="Microsoft"
+          imageUrl={KaranPhoto}
+          description={"BS, Information Systems, 2019, former president."}
         ></TeamPhoto>
       </Row>
       <Row>

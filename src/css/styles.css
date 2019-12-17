@@ -197,3 +197,12 @@ html {
   padding: 0;
   margin: 0;
 }
+
+.nav-link-text {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-link-text:hover {
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+}
