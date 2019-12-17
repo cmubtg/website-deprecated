@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "317d810e924b2f04d6ee0f73b4fb5b28",
+    "revision": "2c77297955226d4c4978c6dee3161bdc",
     "url": "/index.html"
   },
   {
-    "revision": "e36cf336340291209d20",
+    "revision": "594850cde1c6c29bc308",
     "url": "/static/css/2.833dd627.chunk.css"
   },
   {
-    "revision": "e02a4d46affa3122640b",
-    "url": "/static/css/main.e1d06bc1.chunk.css"
+    "revision": "a02e58178824005be289",
+    "url": "/static/css/main.15090d12.chunk.css"
   },
   {
-    "revision": "e36cf336340291209d20",
-    "url": "/static/js/2.e163c113.chunk.js"
+    "revision": "594850cde1c6c29bc308",
+    "url": "/static/js/2.2b719967.chunk.js"
   },
   {
     "revision": "f7383367063af8958ffcbbdbacca45be",
-    "url": "/static/js/2.e163c113.chunk.js.LICENSE"
+    "url": "/static/js/2.2b719967.chunk.js.LICENSE"
   },
   {
-    "revision": "e02a4d46affa3122640b",
-    "url": "/static/js/main.a43f7ff0.chunk.js"
+    "revision": "a02e58178824005be289",
+    "url": "/static/js/main.d3fa8342.chunk.js"
   },
   {
     "revision": "5e9bd26c804355e6306d",
@@ -60,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/capitalone.217b6ba4.svg"
   },
   {
+    "revision": "d5f52e3bf0e6e1cf7e9c85665f347911",
+    "url": "/static/media/deloitte.d5f52e3b.svg"
+  },
+  {
     "revision": "b03ada73af2af32ee75c6f93003117f1",
     "url": "/static/media/deutsche.b03ada73.svg"
   },
@@ -74,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c909d8046547c3f3ea5c96cbdadfe43e",
     "url": "/static/media/evan.c909d804.jpeg"
+  },
+  {
+    "revision": "d88c16c3d756a31c343700e0e26d9192",
+    "url": "/static/media/ibm.d88c16c3.svg"
   },
   {
     "revision": "dd40cf00395df010736ea4f2303f46a6",
@@ -110,6 +118,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d394222a0e3c3db0b8930e0c3aecf275",
     "url": "/static/media/paypal.d394222a.svg"
+  },
+  {
+    "revision": "5a2109b0c04a51b8bf2c723fce265c6c",
+    "url": "/static/media/publicis.5a2109b0.svg"
+  },
+  {
+    "revision": "37c3c987097924f6c51ff5a2d49606aa",
+    "url": "/static/media/pwc.37c3c987.svg"
   },
   {
     "revision": "a8efa9f43bebf2f9b0664d25b7f95a71",
