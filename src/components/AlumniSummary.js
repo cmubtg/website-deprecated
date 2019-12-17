@@ -9,6 +9,8 @@ import MichellePhoto from "../images/alumni/michelle.jpg";
 import EmilyPhoto from "../images/alumni/emily.jpg";
 import SpencerPhoto from "../images/alumni/spencer.jpg";
 import AshwinPhoto from "../images/alumni/ashwin.jpg";
+import AnnettePhoto from "../images/alumni/annette.jpg";
+import NicPhoto from "../images/alumni/nic.jpg";
 
 /* 
 memberName = member's name
@@ -76,6 +78,21 @@ function TeamSummary() {
           role="Comcast"
           imageUrl={SuePhoto}
           description={"Former president."}
+        ></TeamPhoto>
+      </Row>
+      <Row>
+         <TeamPhoto
+          memberName="Annette Jeffs"
+          role="Publicis Sapient"
+          imageUrl={AnnettePhoto}
+          description={"BS, Business Administration, 2018, former vice president."}
+        ></TeamPhoto>
+
+        <TeamPhoto
+          memberName="Nic Cheung"
+          role="Deloitte"
+          imageUrl={NicPhoto}
+          description={"BS, Business Administration, 2018, former vice president."}
         ></TeamPhoto>
       </Row>
     </React.Fragment>
