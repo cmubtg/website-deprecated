@@ -36,6 +36,18 @@ function Alumni() {
         <AlumniSummary />
       </Container>
 
+      <Container className="mt-5">
+        <Row className="text-muted">
+          <Col md={9}>
+            <small>
+              To be added to this list, please email us with your affilation
+              with Carnegie Mellon University, your current title, and the years
+              you were involved with CMUBTG.
+            </small>
+          </Col>
+        </Row>
+      </Container>
+
       <Footer />
     </FadeIn>
   );
