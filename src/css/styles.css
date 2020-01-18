@@ -166,7 +166,7 @@ html {
 }
 
 .bg-danger {
-  background-color: #ff2f44;
+  background-color: #ff2f44 !important;
 }
 
 .btn-danger {

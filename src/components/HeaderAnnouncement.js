@@ -5,21 +5,21 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Alert from "react-bootstrap/Alert";
 
-function RecruitingAlert() {
+function HeaderAnnouncement() {
   const [show, setShow] = useState(true);
 
   if (show) {
     return (
       <Alert
         variant="normal"
-        className="border-bottom rounded-0 text-center p-0 pt-3 m-0"
+        className="bg-danger rounded-0 text-center text-white p-0 pt-3 m-0"
         onClose={() => setShow(false)}
       >
         <Container>
           <Row>
             <Col>
               <p className="small">
-                Apply to become an <a href="https://forms.gle/Duo3JxLmvFuNdCTz9">Outreach Director</a> by December 3<sup>rd</sup>, 9 PM EST
+                Sign up for <a className="text-white" href="https://event.cmubtg.com"><u>Big Tech Gathering 2020</u></a>!
               </p>
             </Col>
           </Row>
@@ -30,4 +30,4 @@ function RecruitingAlert() {
   return "";
 }
 
-export default RecruitingAlert;
+export default HeaderAnnouncement;
