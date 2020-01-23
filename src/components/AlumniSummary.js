@@ -58,7 +58,7 @@ function TeamSummary() {
       <Row>
         <TeamPhoto
           memberName="Spencer Burleigh"
-          role="Rent the Backyard (YC W2019)"
+          role="Rent the Backyard (YC S2019)"
           imageUrl={SpencerPhoto}
           description={"BS, Statistics and Machine Learning, on leave, former vice president of technology."}
           profile="https://www.linkedin.com/in/spencerburleigh/"
