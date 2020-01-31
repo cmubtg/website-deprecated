@@ -11,7 +11,6 @@ import Footer from "./components/Footer";
 import MailchimpForm from "./components/MailchimpForm";
 import Navigation from "./components/Navigation";
 import TeamSummary from "./components/TeamSummary";
-import HeaderAnnouncement from "./components/HeaderAnnouncement";
 import BTGCover from "./images/btg-cover.png";
 
 ReactGA.initialize("UA-104764221-10");
@@ -25,8 +24,6 @@ function Home() {
         <meta name="twitter:card" content="summary_large_image"></meta>
         <meta name="twitter:image" content={BTGCover}></meta>
       </Helmet>
-
-      <HeaderAnnouncement />
 
       <Navigation />
 
