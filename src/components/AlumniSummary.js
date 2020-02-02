@@ -19,7 +19,7 @@ imageUrl = ***Photo
 description (if appropriate) = academic background, graduation year, former role 
 */
 
-function TeamSummary() {
+function AlumniSummary() {
   return (
     <React.Fragment>
       <Row id="people">
@@ -109,4 +109,4 @@ function TeamSummary() {
   );
 }
 
-export default TeamSummary;
+export default AlumniSummary;

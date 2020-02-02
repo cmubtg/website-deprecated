@@ -29,6 +29,7 @@ function Navigation() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto"></Nav>
             <Nav>
+              <Nav.Link href="/team"><Link className="nav-link-text" to="/team">Team</Link></Nav.Link>
               <Nav.Link href="/alumni"><Link className="nav-link-text" to="/alumni">Alumni</Link></Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>

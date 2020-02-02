@@ -5,10 +5,10 @@ import Row from "react-bootstrap/Row";
 import FadeIn from "react-fade-in";
 import ReactGA from "react-ga";
 import { Helmet } from "react-helmet";
-import Footer from "./components/Footer";
-import Navigation from "./components/Navigation";
-import AlumniSummary from "./components/AlumniSummary";
-import BTGCover from "./images/btg-cover.png";
+import Footer from "../components/Footer";
+import Navigation from "../components/Navigation";
+import AlumniSummary from "../components/AlumniSummary";
+import BTGCover from "../images/btg-cover.png";
 
 ReactGA.initialize("UA-104764221-10");
 ReactGA.pageview(window.location.pathname + window.location.search);

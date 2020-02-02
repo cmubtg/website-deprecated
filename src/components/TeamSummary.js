@@ -4,7 +4,6 @@ import TeamPhoto from "./TeamPhoto";
 import EricPhoto from "../images/team/eric.jpg";
 import WillPhoto from "../images/team/will.jpg";
 import MattPhoto from "../images/team/matt.jpg";
-import NavidPhoto from "../images/team/navid.jpg";
 import YvonnePhoto from "../images/team/yvonne.jpg";
 import EvanPhoto from "../images/team/evan.jpeg";
 
@@ -54,16 +53,6 @@ function TeamSummary() {
       </Row>
 
       <Row>
-        <TeamPhoto
-          memberName="Navid Mamoon"
-          role="Head of Product"
-          imageUrl={NavidPhoto}
-          description={
-            "Navid is a sophomore studying information systems. Navid’s in love with his guitar and has recently taken up rock climbing in lieu of his failed attempts at working out."
-          }
-          profile="https://www.linkedin.com/in/navid-mamoon/"
-        ></TeamPhoto>
-
         <TeamPhoto
           memberName="Evan Feder"
           role="Head of Research"
