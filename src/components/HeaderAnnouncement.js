@@ -19,7 +19,7 @@ function HeaderAnnouncement() {
           <Row>
             <Col>
               <p className="small">
-                Sign up for <a className="text-white" href="https://event.cmubtg.com"><u>Big Tech Gathering 2020</u></a>!
+                Sign up to join <a className="text-white" href="https://forms.gle/MCWGNKk8T7ZwNnCb8"><u>BTG Analytics or BTG Digital</u></a>!
               </p>
             </Col>
           </Row>
