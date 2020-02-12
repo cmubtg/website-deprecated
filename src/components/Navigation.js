@@ -48,7 +48,7 @@ function Navigation() {
                     Projects
                   </Link>
                 </Nav.Link>
-                <Nav.Link href="https://event.cmubtg.com">
+                <Nav.Link>
                   <Link className="nav-link-text" to="https://event.cmubtg.com">
                     Events
                   </Link>
