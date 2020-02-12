@@ -15,6 +15,7 @@ import Deloitte from "../images/deloitte.svg";
 import IBM from "../images/ibm.svg";
 import Publicis from "../images/publicis.svg";
 import PWC from "../images/pwc.svg";
+import Volvo from "../images/volvo.svg";
 
 const Companies = () => {
   return (
@@ -39,7 +40,8 @@ const Companies = () => {
       </Row>
       <Row>
         <Company name="publicis" company={Publicis}></Company>
-        <Company name="pwc" company={PWC}></Company>
+        <Company name="pwc" company={PWC}></Company>        
+        <Company name="volvo" company={Volvo}></Company>
       </Row>
     </>
   );
