@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c1e6941.chunk.css",
-    "main.js": "/static/js/main.2709b256.chunk.js",
-    "main.js.map": "/static/js/main.2709b256.chunk.js.map",
+    "main.css": "/static/css/main.b85c95c8.chunk.css",
+    "main.js": "/static/js/main.1698453c.chunk.js",
+    "main.js.map": "/static/js/main.1698453c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.70098a84.js",
     "runtime-main.js.map": "/static/js/runtime-main.70098a84.js.map",
     "static/css/2.833dd627.chunk.css": "/static/css/2.833dd627.chunk.css",
-    "static/js/2.8bb848b2.chunk.js": "/static/js/2.8bb848b2.chunk.js",
-    "static/js/2.8bb848b2.chunk.js.map": "/static/js/2.8bb848b2.chunk.js.map",
+    "static/js/2.9f0e77b2.chunk.js": "/static/js/2.9f0e77b2.chunk.js",
+    "static/js/2.9f0e77b2.chunk.js.map": "/static/js/2.9f0e77b2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6a1b5bbc77700cf344e526f6708a61d8.js": "/precache-manifest.6a1b5bbc77700cf344e526f6708a61d8.js",
+    "precache-manifest.d2cf53af8a333ab5b539460834ca5f5d.js": "/precache-manifest.d2cf53af8a333ab5b539460834ca5f5d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.833dd627.chunk.css.map": "/static/css/2.833dd627.chunk.css.map",
-    "static/css/main.8c1e6941.chunk.css.map": "/static/css/main.8c1e6941.chunk.css.map",
-    "static/js/2.8bb848b2.chunk.js.LICENSE": "/static/js/2.8bb848b2.chunk.js.LICENSE",
+    "static/css/main.b85c95c8.chunk.css.map": "/static/css/main.b85c95c8.chunk.css.map",
+    "static/js/2.9f0e77b2.chunk.js.LICENSE": "/static/js/2.9f0e77b2.chunk.js.LICENSE",
     "static/media/ashwin.jpg": "/static/media/ashwin.1fedd2b6.jpg",
     "static/media/boeing.svg": "/static/media/boeing.63cdf493.svg",
     "static/media/bofa.svg": "/static/media/bofa.b0cf7268.svg",
@@ -42,6 +42,7 @@
     "static/media/spencer.jpg": "/static/media/spencer.a469e91b.jpg",
     "static/media/spotify.svg": "/static/media/spotify.8499c8e5.svg",
     "static/media/styles.css": "/static/media/toggler.caeb38fe.svg",
+    "static/media/volvo.svg": "/static/media/volvo.826bd9e3.svg",
     "static/media/will.jpg": "/static/media/will.01f92a05.jpg",
     "static/media/yc.svg": "/static/media/yc.dc8741b5.svg",
     "static/media/yvonne.jpg": "/static/media/yvonne.6824e1f0.jpg"
@@ -49,8 +50,8 @@
   "entrypoints": [
     "static/js/runtime-main.70098a84.js",
     "static/css/2.833dd627.chunk.css",
-    "static/js/2.8bb848b2.chunk.js",
-    "static/css/main.8c1e6941.chunk.css",
-    "static/js/main.2709b256.chunk.js"
+    "static/js/2.9f0e77b2.chunk.js",
+    "static/css/main.b85c95c8.chunk.css",
+    "static/js/main.1698453c.chunk.js"
   ]
 }
