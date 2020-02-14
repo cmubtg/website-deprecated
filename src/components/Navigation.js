@@ -48,10 +48,8 @@ function Navigation() {
                     Projects
                   </Link>
                 </Nav.Link>
-                <Nav.Link>
-                  <Link className="nav-link-text" to="https://event.cmubtg.com">
-                    Events
-                  </Link>
+                <Nav.Link href="https://event.cmubtg.com">
+                  <Link className="nav-link-text">Events</Link>
                 </Nav.Link>
                 <Nav.Link href="/alumni">
                   <Link className="nav-link-text" to="/alumni">
