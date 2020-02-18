@@ -9,8 +9,6 @@ import HeaderAnnouncement from "./HeaderAnnouncement";
 function Navigation() {
   return (
     <div>
-      <HeaderAnnouncement />
-
       <div className="border-bottom">
         <Container>
           <Navbar
