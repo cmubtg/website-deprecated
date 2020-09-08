@@ -26,7 +26,7 @@ function TeamSummary() {
           role="Head of Operations"
           imageUrl={WillPhoto}
           description={
-            "William is a sophomore studying Statistics and Machine Learning. He enjoys game theory and games of chance."
+            "William is a junior studying Statistics and Machine Learning. He enjoys game theory and games of chance."
           }
           profile="https://www.linkedin.com/in/william-zeng/"
         ></TeamPhoto>
@@ -36,7 +36,7 @@ function TeamSummary() {
           role="Head of Finance"
           imageUrl={YvonnePhoto}
           description={
-            "Yvonne is a sophomore studying business. She enjoys hikes and lakes."
+            "Yvonne is a junior studying business. She enjoys hikes and lakes."
           }
           profile="https://www.linkedin.com/in/yvonne-liang-1b9a56190/"
         ></TeamPhoto>
