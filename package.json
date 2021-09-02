@@ -17,7 +17,7 @@
     "react-helmet": "^5.2.1",
     "react-icons": "^3.10.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^4.0.3",
     "typescript": "^3.9.3"
   },
   "scripts": {
@@ -45,7 +45,6 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
   "author": "Eric Cheng",
   "license": "ISC"
 }
