@@ -1,68 +1,127 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# cmubtg-website
 
-## Available Scripts
+This repository contains the code and build materials for
+[cmubtg.com](https://cmubtg.com). It is based off of the popular [Create React
+App](https://github.com/facebook/create-react-app) platform maintained by
+Facebook and is served via GitHub Pages.
 
-In the project directory, you can run:
+There are two branches: `master` and `gh-pages`, the former which is used to
+actually make changes to the website and the latter as the branch where assets
+are placed for live production.
 
-### `npm start`
+## Getting started
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Let's make some changes to the website. This documentation is written from the
+perspective that you are using a UNIX-based operating system to develop, such as
+macOS, Linux, or WSL.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Pre-requisites
 
-### `npm test`
+You'll be modifying this website by making [pull
+requests](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request),
+rather than directly pushing to source. *Make sure you understand what a pull
+request is before proceeding further.*
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Also, take this time to ensure you are in the CMUBTG organization on GitHub.
 
-### `npm run build`
+> **Recommended**
+>
+> [Learn how to add your SSH key to
+> GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+> so its harder for people to mimic your account. It's a good security practice.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Basic development
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+- Fork this repository and clone to your local machine. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Fetch the dependencies for this project by running `npm install`. You will
+  probably get dependency vulnerability warnings, but this unfortunately a
+  normal aspect of npm development.
 
-### `npm run eject`
+- To edit and see your changes take place in real time, start a local
+  development server by running `npm start`. This should open a new browser tab
+  at `localhost:3000` with the cmubtg.com homepage after it loads.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+> While running a server, your changes will 'hot reload' instantly on most
+> changes. If it looks like something isn't automatically refreshing, as is the
+> case when modifying things like `package.json`, then quit the server and
+> re-run `npm start`.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Directory structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+As of October 2021, the operative portion of the website takes on this form:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+│
+└── src
+    ├── App.js
+    ├── App.test.js
+    ├── components
+    │   ├── AlumniSummary.js
+    │   ├── Companies.js
+    │   ├── Company.js
+    │   ├── Footer.js
+    │   ├── HeaderAnnouncement.js
+    │   ├── MailchimpForm.js
+    │   ├── Navigation.js
+    │   ├── TeamDescription.js
+    │   ├── TeamPhoto.js
+    │   ├── TeamSummary.js
+    │   └── useForm.js
+    ├── css
+    │   ├── companies.css
+    │   └── styles.css
+    ├── images
+    │   ├── alumni
+    │   ├── amazon.svg
+    │   ├── boeing.svg
+    │   ├── bofa.svg
+    │   ├── btg-cover.png
+    │   ├── btg-logo-gray.svg
+    │   ├── btg-logo-white-red.svg
+    │   ├── btg-logo-white.svg
+    │   ├── capitalone.svg
+    │   ├── deloitte.svg
+    │   ├── deutsche.svg
+    │   ├── ibm.svg
+    │   ├── mastercard.svg
+    │   ├── microsoft.svg
+    │   ├── paypal.svg
+    │   ├── publicis.svg
+    │   ├── pwc.svg
+    │   ├── roblox.svg
+    │   ├── spotify.svg
+    │   ├── team
+    │   ├── toggler.svg
+    │   ├── volvo.svg
+    │   └── yc.svg
+    ├── index.js
+    ├── pages
+    │   ├── Alumni.js
+    │   ├── Home.js
+    │   ├── Projects.js
+    │   └── Team.js
+    └── serviceWorker.js
+```
 
-## Learn More
+The `pages/` directory contains webpages that are comprised of components
+located in the aptly-named `components/` directory. These components, such as
+team photos and company logos, may themselves draw upon images and other assets
+located in `images/`. This creates a clear structure for the website, and allows
+for components to be reused across different pages in a sensible way.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Everything is styled by a single `css/styles.css` file, with
+the sole exception being the relative sizing of the company logos on the
+homepage, which is done in `css/companies.css`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment
 
-### Code Splitting
+Once you have made your changes, create a Git commit describing them and submit
+a pull request as detailed above.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+When your changes are approved, you can deploy the new version of the website by
+running `npm run deploy`, which will compile the website for production-use and
+push the website contents into the `gh-pages` branch on GitHub for public
+consumption.
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Well done!

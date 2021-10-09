@@ -1,50 +1,56 @@
 {
-  "homepage": "https://cmubtg.com",
-  "name": "cmubtg-website",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "axios": "^0.21.1",
-    "bootstrap": "^4.5.0",
-    "gh-pages": "^2.2.0",
-    "jquery": "^3.5.1",
-    "popper.js": "^1.16.1",
-    "react": "^16.13.1",
-    "react-bootstrap": "^1.0.1",
-    "react-dom": "^16.13.1",
-    "react-fade-in": "^0.1.8",
-    "react-ga": "^2.7.0",
-    "react-helmet": "^5.2.1",
-    "react-icons": "^3.10.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "^4.0.3",
-    "typescript": "^3.9.3"
-  },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "author": "Eric Cheng",
-  "license": "ISC"
+    "homepage": "https://cmubtg.com",
+    "name": "cmubtg-website",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@testing-library/jest-dom": "^5.14.1",
+        "@testing-library/react": "^11.2.7",
+        "@testing-library/user-event": "^12.8.3",
+        "axios": "^0.21.1",
+        "bootstrap": "^4.5.0",
+        "gh-pages": "^2.2.0",
+        "jquery": "^3.5.1",
+        "popper.js": "^1.16.1",
+        "react": "^17.0.2",
+        "react-bootstrap": "^1.0.1",
+        "react-dom": "^17.0.2",
+        "react-fade-in": "^2.0.1",
+        "react-ga": "^3.3.0",
+        "react-helmet": "^5.2.1",
+        "react-icons": "^4.3.1",
+        "react-router-dom": "^5.3.0",
+        "react-scripts": "^4.0.3",
+        "web-vitals": "^1.1.2"
+    },
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+    "main": "index.js",
+    "author": "Eric Cheng",
+    "license": "ISC"
 }
