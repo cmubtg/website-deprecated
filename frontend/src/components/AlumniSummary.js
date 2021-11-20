@@ -1,8 +1,17 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import TeamPhoto from "./TeamPhoto";
-import CalvinPhoto from "../images/team/calvin.jpg";
-import JennyPhoto from "../images/team/jenny.jpeg";
+
+// 2020 - 2021 Alumni
+import EricPhoto from "../images/alumni/eric.jpg";
+import WillPhoto from "../images/alumni/will.jpg";
+import MattPhoto from "../images/alumni/matt.jpg";
+import YvonnePhoto from "../images/alumni/yvonne.jpg";
+import EvanPhoto from "../images/alumni/evan.jpeg";
+
+// Pre 2020 Alumni
+import CalvinPhoto from "../images/alumni/calvin.jpg";
+import JennyPhoto from "../images/alumni/jenny.jpeg";
 import KaranPhoto from "../images/alumni/karan.jpg";
 import SuePhoto from "../images/alumni/sue.jpg";
 import MichellePhoto from "../images/alumni/michelle.jpg";
@@ -23,6 +32,48 @@ function AlumniSummary() {
   return (
     <React.Fragment>
       <Row id="people">
+      <TeamPhoto
+          memberName="Eric Cheng"
+          role=""
+          imageUrl={EricPhoto}
+          description={"BS, Business Administration, 2022, Former President."}
+          profile="https://www.linkedin.com/in/eric-cheng986/"
+        ></TeamPhoto>
+
+        <TeamPhoto
+          memberName="Will Zeng"
+          role=""
+          imageUrl={WillPhoto}
+          description={"BS, Statistics and Machine Learning, 2022, former Head of Operations."}
+          profile="https://www.linkedin.com/in/william-zeng/"
+        ></TeamPhoto>
+
+        <TeamPhoto
+          memberName="Yvonne Liang"
+          role=""
+          imageUrl={YvonnePhoto}
+          description={"BS, Business Administration, 2022, Former Head of Finance."}
+          profile="https://www.linkedin.com/in/yvonne-liang-1b9a56190/"
+        ></TeamPhoto>
+
+        <TeamPhoto
+          memberName="Matthew Guo"
+          role=""
+          imageUrl={MattPhoto}
+          description={"BS, Information Systems and HCI, 2022, Former Head of Design."}
+          profile="https://www.linkedin.com/in/matthew-guo-003781173/"
+        ></TeamPhoto>
+      </Row>
+
+      <Row>
+        <TeamPhoto
+          memberName="Evan Feder"
+          role="Head of Research"
+          imageUrl={EvanPhoto}
+          description={"BS, Information Systems, 2022, Former Head of Research."}
+          profile="https://www.linkedin.com/in/evanfeder/"
+        ></TeamPhoto>
+
         <TeamPhoto
           memberName="Calvin Lui"
           role="Microsoft"
@@ -46,7 +97,8 @@ function AlumniSummary() {
           description={"MS, Product Management, 2020, former product manager."}
           profile="https://www.linkedin.com/in/ashwinraog/"
         ></TeamPhoto>
-
+      </Row>
+      <Row>
         <TeamPhoto
           memberName="Karan Bokil"
           role="Microsoft"
@@ -54,8 +106,8 @@ function AlumniSummary() {
           description={"BS, Information Systems, 2019, former president."}
           profile="https://www.linkedin.com/in/karanbokil/"
         ></TeamPhoto>
-      </Row>
-      <Row>
+      
+      
         <TeamPhoto
           memberName="Spencer Burleigh"
           role="Rent the Backyard (YC S2019)"
@@ -79,16 +131,15 @@ function AlumniSummary() {
           description={"BS, Business Administration, 2017, former president."}
           profile="https://www.linkedin.com/in/michelle-wcho/"
         ></TeamPhoto>
-
+      </Row>
+      <Row>
         <TeamPhoto
           memberName="Sue Park"
           role="Comcast"
           imageUrl={SuePhoto}
           description={"Former president."}
           profile="https://www.linkedin.com/in/parksusanna/"
-        ></TeamPhoto>
-      </Row>
-      <Row>
+        ></TeamPhoto>        
          <TeamPhoto
           memberName="Annette Jeffs"
           role="Publicis Sapient"
