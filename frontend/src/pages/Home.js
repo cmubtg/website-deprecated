@@ -60,7 +60,7 @@ function Home() {
               in their areas of interest.
             </p>
 
-            {/* <Row className="mt-5 py-3">
+            <Row className="mt-5 py-3">
               <Col xs={12} md={4}>
                 <h4 className="font-weight-bold">
                   <Badge variant="danger" className="align-bottom">
@@ -85,7 +85,7 @@ function Home() {
                   Career Events
                 </h4>
               </Col>
-            </Row> */}
+            </Row>
           </Col>
         </Row>
 

@@ -41,6 +41,11 @@ function Navigation() {
                     Team
                   </Link>
                 </Nav.Link>
+                <Nav.Link href="/members">
+                  <Link className="nav-link-text" to="/members">
+                    Members
+                  </Link>
+                </Nav.Link>
                 <Nav.Link href="/projects">
                   <Link className="nav-link-text" to="/projects">
                     Projects
