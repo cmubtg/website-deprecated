@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.ceaeab9c.chunk.css",
-    "main.js": "/static/js/main.f4c97ba7.chunk.js",
-    "main.js.map": "/static/js/main.f4c97ba7.chunk.js.map",
+    "main.js": "/static/js/main.1f67b5b8.chunk.js",
+    "main.js.map": "/static/js/main.1f67b5b8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2cb05295.js",
     "runtime-main.js.map": "/static/js/runtime-main.2cb05295.js.map",
-    "static/css/2.d5e620ed.chunk.css": "/static/css/2.d5e620ed.chunk.css",
-    "static/js/2.3fd25b47.chunk.js": "/static/js/2.3fd25b47.chunk.js",
-    "static/js/2.3fd25b47.chunk.js.map": "/static/js/2.3fd25b47.chunk.js.map",
+    "static/css/2.858c4db3.chunk.css": "/static/css/2.858c4db3.chunk.css",
+    "static/js/2.6a5f3a8f.chunk.js": "/static/js/2.6a5f3a8f.chunk.js",
+    "static/js/2.6a5f3a8f.chunk.js.map": "/static/js/2.6a5f3a8f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.d5e620ed.chunk.css.map": "/static/css/2.d5e620ed.chunk.css.map",
+    "static/css/2.858c4db3.chunk.css.map": "/static/css/2.858c4db3.chunk.css.map",
     "static/css/main.ceaeab9c.chunk.css.map": "/static/css/main.ceaeab9c.chunk.css.map",
-    "static/js/2.3fd25b47.chunk.js.LICENSE.txt": "/static/js/2.3fd25b47.chunk.js.LICENSE.txt",
+    "static/js/2.6a5f3a8f.chunk.js.LICENSE.txt": "/static/js/2.6a5f3a8f.chunk.js.LICENSE.txt",
     "static/media/amazon.4ea978ef.svg": "/static/media/amazon.4ea978ef.svg",
     "static/media/ashwin.08cf53bd.jpg": "/static/media/ashwin.08cf53bd.jpg",
     "static/media/boeing.322379e7.svg": "/static/media/boeing.322379e7.svg",
@@ -21,6 +21,7 @@
     "static/media/btg-logo-white-red.39b78bc3.svg": "/static/media/btg-logo-white-red.39b78bc3.svg",
     "static/media/calvin.8a3932e9.jpg": "/static/media/calvin.8a3932e9.jpg",
     "static/media/capitalone.4475a1a4.svg": "/static/media/capitalone.4475a1a4.svg",
+    "static/media/david.1c2f6126.jpg": "/static/media/david.1c2f6126.jpg",
     "static/media/deloitte.d8e91838.svg": "/static/media/deloitte.d8e91838.svg",
     "static/media/deutsche.dd0e1a30.svg": "/static/media/deutsche.dd0e1a30.svg",
     "static/media/emily.c14a4b4a.jpg": "/static/media/emily.c14a4b4a.jpg",
@@ -37,7 +38,10 @@
     "static/media/paypal.bff48a2c.svg": "/static/media/paypal.bff48a2c.svg",
     "static/media/publicis.48f01b5b.svg": "/static/media/publicis.48f01b5b.svg",
     "static/media/pwc.17d7b6d9.svg": "/static/media/pwc.17d7b6d9.svg",
+    "static/media/rachana.a543f39e.jpg": "/static/media/rachana.a543f39e.jpg",
+    "static/media/raymond.f99569c7.jpg": "/static/media/raymond.f99569c7.jpg",
     "static/media/roblox.5d3eabf1.svg": "/static/media/roblox.5d3eabf1.svg",
+    "static/media/roshan.472e43e9.jpg": "/static/media/roshan.472e43e9.jpg",
     "static/media/spencer.6ee88da7.jpg": "/static/media/spencer.6ee88da7.jpg",
     "static/media/spotify.4f8bc335.svg": "/static/media/spotify.4f8bc335.svg",
     "static/media/styles.css": "/static/media/toggler.fc97a4f4.svg",
@@ -48,9 +52,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2cb05295.js",
-    "static/css/2.d5e620ed.chunk.css",
-    "static/js/2.3fd25b47.chunk.js",
+    "static/css/2.858c4db3.chunk.css",
+    "static/js/2.6a5f3a8f.chunk.js",
     "static/css/main.ceaeab9c.chunk.css",
-    "static/js/main.f4c97ba7.chunk.js"
+    "static/js/main.1f67b5b8.chunk.js"
   ]
 }
