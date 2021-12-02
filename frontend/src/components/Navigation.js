@@ -36,11 +36,11 @@ function Navigation() {
                 </small>
               </div>
               <Nav className="ml-auto">
-                <Nav.Link href="/team">
+                {/* <Nav.Link href="/team">
                   <Link className="nav-link-text" to="/team">
                     Team
                   </Link>
-                </Nav.Link>
+                </Nav.Link> */}
                 <Nav.Link href="/members">
                   <Link className="nav-link-text" to="/members">
                     Members

@@ -1,3 +1,7 @@
+/* This page holds all the information for BTG executive alumni */
+
+
+
 import React from "react";
 import Row from "react-bootstrap/Row";
 import TeamPhoto from "./TeamPhoto";
