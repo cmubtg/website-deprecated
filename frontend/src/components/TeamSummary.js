@@ -55,7 +55,7 @@ function TeamSummary() {
           memberName="Rachana Murali Narayanan"
           role="Head of Outreach"
           imageUrl={RachanaPhoto}
-          description={"BS, Information Systems, 2022, Head of Operations."}
+          description={"BS, Electrical Engineering and Statistics, 2023, Head of Outreach."}
           profile="https://www.linkedin.com/in/rachana-m-n/"
         ></TeamPhoto> 
       </Row>
