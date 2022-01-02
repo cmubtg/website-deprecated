@@ -13,8 +13,16 @@ import LogoGray from "../images/btg-logo-gray.svg";
 
 const Footer = () => {
   return (
-    <Container className="py-5 mt-5" id="contact">
+    <Container className="py-4 mt-3" id="contact">
       <Row>
+        <p className="text-muted py-3">
+          <small>
+            Want to reach out? Send us a line at{" "}
+            <a href="mailto:info@cmubtg.com" target="_blank" rel="noopener noreferrer">info@cmubtg.com</a>
+          </small>
+        </p>           
+      </Row>      
+      <Row>     
         <Col>
           <Button
             variant="light"
@@ -48,12 +56,6 @@ const Footer = () => {
           >
             <FaLinkedinIn />
           </Button>
-          <p className="text-muted py-5">
-            <small>
-              Want to reach out? Send us a line at{" "}
-              <a href="mailto:info@cmubtg.com" target="_blank" rel="noopener noreferrer">info@cmubtg.com</a>
-            </small>
-          </p>
         </Col>
       </Row>
       <Row>

@@ -2,6 +2,7 @@ import React,{ useState,useEffect} from 'react';
 import { useParams } from "react-router-dom";
 import axios from 'axios'
 import ReactGA from "react-ga";
+import ReactMarkdown from "react-markdown";
 import { Helmet } from "react-helmet";
 import FadeIn from "react-fade-in";
 import Col from "react-bootstrap/Col";
@@ -10,6 +11,8 @@ import Container from "react-bootstrap/Container";
 import Navigation from "../components/Navigation";
 import BTGCover from "../images/btg-cover.png";
 import Footer from "../components/Footer";
+
+import {LinkedInPhoto, Resume, Email} from "../images/static";
 
 ReactGA.initialize("UA-104764221-10");
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -44,7 +47,7 @@ function Member(){
         return <div>Loading...</div>;
     }  
     if (member){
-        //console.log(member[0].resume[0].url);
+
         return (
             <FadeIn>
             <Helmet>
@@ -55,29 +58,54 @@ function Member(){
         
             <Navigation />
         
-            <Container className="mt-md-5 pt-md-5">
-                <Row className="pt-5 mt-5">
-                  <Col xs={8}>
-                    <h1 className="display-3 text-black font-weight-boldest">{member[0].firstname} {member[0].lastname}</h1>
-                    <p>{member[0].email}</p>
-                  </Col>
-                  <Col>
-                    <img src={"http://localhost:1337"+member[0].pic.formats.thumbnail.url} alt="Pic" />
-                  </Col>
-                </Row>
+            <Container className="mt-md-1 pt-md-4">
+              <Row>
+                <h1 className="display-3 text-black font-weight-boldest">{member[0].firstname} {member[0].lastname}</h1>
+              </Row>
+              <Row className="pt-1 mt-5">
+                <Col xs={8}>
+                  <h2>About Me</h2>
+                  <p>{member[0].portfolio}</p>
+                </Col>
+                <Col>
+                  <img src={"http://localhost:1337"+member[0].pic.formats.thumbnail.url} alt="Pic" width="250"/>
+                </Col>
+              </Row>
+            </Container>
+
+            <Container className="pt-3 mt-4" style={{backgroundColor: '#ff2f44'}}>
+              <Row>
+                <Col>
+                  <div style={{color: 'white'}}>
+                    <h2>My Experiences</h2>                                        
+                    <ReactMarkdown>{member[0].experiences}</ReactMarkdown>
+                  </div>                  
+                </Col>
+              </Row>
+            </Container>
+
+            <Container className="pt-3 mt-3">
+              <Row>     
+                <Col>
+                  <h2>Contact Info</h2>
+                </Col>                         
+              </Row>
+              <Container className="mt-1">
                 <Row>
-                    <Col>
-                        <div>
-                            <pre>{member[0].portfolio}</pre>
-                            {/* <iframe title="PDF" src={"http://localhost:1337"+member[0].resume[0].url}>
-                                <a href={"http://localhost:1337"+member[0].resume[0].url}>Download</a>
-                            </iframe> */}
-                            <embed src={"http://localhost:1337"+member[0].resume[0].url} type="application/pdf" />
-                        </div>
-                    </Col>
+                  <Col className="mr-3">
+                    <a href={member[0].LinkedIn} target="_blank"><img src={LinkedInPhoto} alt="LinkedIn" width="75"/></a>           
+                  </Col>
+                  <Col className="mr-4">
+                    <a href={"http://localhost:1337"+member[0].resume[0].url} target="_blank"><img src={Resume} alt="Resume" width="75"/></a>
+                  </Col>
+                  <Col className="mr-4">
+                    <a href={"mailto:"+member[0].andrewid+"@andrew.cmu.edu"} target="_blank"><img src={Email} alt="Email" width="75"/></a>        
+                  </Col>                                
                 </Row>
               </Container>
-                <Footer />
+            </Container>
+
+            <Footer />
             </FadeIn>
         );
     }
