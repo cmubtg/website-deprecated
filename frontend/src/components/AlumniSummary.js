@@ -1,7 +1,5 @@
 /* This page holds all the information for BTG executive alumni */
 
-
-
 import React from "react";
 import Row from "react-bootstrap/Row";
 import TeamPhoto from "./TeamPhoto";
@@ -28,8 +26,8 @@ import NicPhoto from "../images/alumni/nic.jpg";
 /* 
 memberName = member's name
 role = current company
-imageUrl = ***Photo
-description (if appropriate) = academic background, graduation year, former role 
+imageUrl = photo
+description (if appropriate) = academic background, graduation year, former role within CMUBTG
 */
 
 function AlumniSummary() {
@@ -40,15 +38,15 @@ function AlumniSummary() {
           memberName="Eric Cheng"
           role=""
           imageUrl={EricPhoto}
-          description={"BS, Business Administration, 2022, Former President."}
+          description={"BS, Business Administration, 2022, former president."}
           profile="https://www.linkedin.com/in/eric-cheng986/"
         ></TeamPhoto>
 
         <TeamPhoto
           memberName="Will Zeng"
-          role=""
+          role="Roblox"
           imageUrl={WillPhoto}
-          description={"BS, Statistics and Machine Learning, 2022, former Head of Operations."}
+          description={"BS, Statistics and Machine Learning, 2022, former head of operations."}
           profile="https://www.linkedin.com/in/william-zeng/"
         ></TeamPhoto>
 
@@ -56,7 +54,7 @@ function AlumniSummary() {
           memberName="Yvonne Liang"
           role=""
           imageUrl={YvonnePhoto}
-          description={"BS, Business Administration, 2022, Former Head of Finance."}
+          description={"BS, Business Administration, 2022, former head of finance."}
           profile="https://www.linkedin.com/in/yvonne-liang-1b9a56190/"
         ></TeamPhoto>
 
@@ -64,17 +62,16 @@ function AlumniSummary() {
           memberName="Matthew Guo"
           role=""
           imageUrl={MattPhoto}
-          description={"BS, Information Systems and HCI, 2022, Former Head of Design."}
+          description={"BS, Information Systems and HCI, 2022, former head of design."}
           profile="https://www.linkedin.com/in/matthew-guo-003781173/"
         ></TeamPhoto>
       </Row>
-
       <Row>
         <TeamPhoto
           memberName="Evan Feder"
-          role="Head of Research"
+          role="Google"
           imageUrl={EvanPhoto}
-          description={"BS, Information Systems, 2022, Former Head of Research."}
+          description={"BS, Information Systems, 2022, former head of research."}
           profile="https://www.linkedin.com/in/evanfeder/"
         ></TeamPhoto>
 
@@ -105,16 +102,15 @@ function AlumniSummary() {
       <Row>
         <TeamPhoto
           memberName="Karan Bokil"
-          role="Microsoft"
+          role="Amazon"
           imageUrl={KaranPhoto}
           description={"BS, Information Systems, 2019, former president."}
           profile="https://www.linkedin.com/in/karanbokil/"
         ></TeamPhoto>
       
-      
         <TeamPhoto
           memberName="Spencer Burleigh"
-          role="Rent the Backyard (YC S2019)"
+          role="Rent the Backyard (YC S19)"
           imageUrl={SpencerPhoto}
           description={"BS, Statistics and Machine Learning, on leave, former vice president of technology."}
           profile="https://www.linkedin.com/in/spencerburleigh/"
@@ -130,7 +126,7 @@ function AlumniSummary() {
 
         <TeamPhoto
           memberName="Michelle Cho"
-          role="IBM"
+          role="The New Yorker"
           imageUrl={MichellePhoto}
           description={"BS, Business Administration, 2017, former president."}
           profile="https://www.linkedin.com/in/michelle-wcho/"
@@ -139,14 +135,15 @@ function AlumniSummary() {
       <Row>
         <TeamPhoto
           memberName="Sue Park"
-          role="Comcast"
+          role="Gopuff"
           imageUrl={SuePhoto}
           description={"Former president."}
           profile="https://www.linkedin.com/in/parksusanna/"
         ></TeamPhoto>        
-         <TeamPhoto
+         
+        <TeamPhoto
           memberName="Annette Jeffs"
-          role="Publicis Sapient"
+          role="Expedia"
           imageUrl={AnnettePhoto}
           description={"BS, Business Administration, 2018, former vice president."}
           profile="https://www.linkedin.com/in/annettejeffs/"
@@ -154,7 +151,7 @@ function AlumniSummary() {
 
         <TeamPhoto
           memberName="Nic Cheung"
-          role="Deloitte"
+          role="DAZN Group"
           imageUrl={NicPhoto}
           description={"BS, Business Administration, 2018, former vice president."}
           profile="https://www.linkedin.com/in/nic-cheung-08860986/"
